@@ -1,0 +1,193 @@
+body {
+    width: 100%;
+    margin: 0;
+    background: black;
+    color: white;
+}
+
+
+.par {
+    display: flex;
+}
+
+
+
+figure img:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.1);
+    transform: rotate(-10deg);
+    animation-delay: 3s;
+
+
+}
+
+
+.par{
+  width:100%;  
+    
+}
+
+.par figure{
+    width:95%;
+    height: auto;
+    text-align: center;
+    border: 2px solid grey;
+    background:gery;
+    margin:2%;
+}
+
+
+figure,
+a {
+    text-decoration: none;
+}
+
+figcaption {
+    height: 30px;
+    color: aliceblue;
+    background: grey;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.top{
+    margin-top:4%;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    flex: 3;
+    margin: 3.5% 0 0 0;
+}
+
+
+h2 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    padding-left: 2%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: grey;
+    border-bottom: 1px solid white;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    margin: 0;
+}
+
+
+figure {
+    flex: 1;
+    width: 110px;
+    height: auto;
+    text-align: center;
+    border: 2px solid grey;
+    background: grey;
+}
+
+img {
+    width:100%;
+    height: auto;
+}
+
+.tex {
+    flex: 2;
+    margin: 2%;
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+}
+
+.fir {
+    display: flex;
+    background: white;
+    margin: 0.5%;
+    border-radius: 3px;
+}
+
+h4 {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+
+}
+
+button {
+    text-decoration: none;
+    background: grey;
+    margin: 2px 0 0 0;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+
+button,
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background: grey;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: white;
+
+}
+
+.bac {
+    margin: 3% 2% 2% 2%;
+    font-size: 5vh;
+    color: white;
+}
+
+.bac:hover {
+    transform: scale(1.4)
+}
+
+@keyframes glissement {
+
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+}
+
+@keyframes jump {
+    0% {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    }
+    40% {
+        transform: translate3d(0, 30%, 0) scale3d(1, 1, 1);
+    }
+    70% {
+        transform: translate3d(0, 70%, 0) scale3d(1, 1, 1);
+    }
+}
+
+.copy {
+    transform-origin: 50% 50%;
+    animation: jump .5s linear alternate infinite;
+    text-align: center;
+}
