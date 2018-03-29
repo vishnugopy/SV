@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Wishes From Your Friend</title>
+    <link rel="stylesheet" href="CSS\stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="../img/2018.png" />
+  </head>
+  <body>
+      <h3>Hi! I Wish you </h3>
+      <h2>Happy New year 2018</h2>
+      <div class="greeting"><h1></h1></div>
+      <img class="cen" src="../img/tt.png" alt="01">
+
+
+        
+      <section class="pop-up">
+<div class="box">
+  <form class="form">
+    <h4>Please enter your name here</h4>
+			<div><input type="text" placeholder="Name" required/></div>
+			<div><button class="close" type="submit">Let's Go! <i class="fas arrow-right"></i></button></div>
+		</form>
+</div>
+  </section>
+
+
+<footer>
+  <a href="https://www.instagram.com/__vishnu__10/">&copy;Vishnugopy</a>
+  <a href="../index.html"><div class="btnf"><h4>Go to Home</h4></div></a>
+
+</footer>
+      <script>
+         
+$(document).ready(function(){
+	
+	$(".close").click(function(){
+    $(".pop-up").hide();
+    $(".fly").hide();
+ 
+});
+	
+	$("button").click(function() {
+	
+		var nameValue = $("input[type=text]").val().trim(),
+				nameField = $("input[type=text]");
+		
+		if(nameValue) {
+			$(this).remove();
+			nameField.prop("disabled", true);
+			$("h1").append(nameValue);
+			$(".greeting").show(300);
+            $(".fly").show(300);
+            
+		}
+	});
+});
+      </script>
+<style>
+html{
+  text-align: center;
+  background: linear-gradient(to right,#3281ff,lightblue,#3281ff);
+
+}
+
+h3{
+font-family: 'Bungee', cursive;
+font-size:4vh;
+color: white;
+text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+h1{
+font-family: 'Knewave', cursive;
+font-size:7vh;
+color:#2075fc;
+text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+h2{
+font-family: 'Lobster', cursive;
+font-size:5vh;
+color: white;
+text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+a{
+  text-decoration: none;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+
+
+}
+
+.cen{
+  height:100%;
+  width:290px;
+}
+
+.box{
+    background:white;
+    height:200px;
+    width:auto;
+    border:1px blue solid;
+}
+
+.pop-up{
+    margin: auto;
+    position: absolute;
+    top:30%; left:5%; bottom:0; right: 5%;
+}
+
+.box h4{
+    background:lightblue;
+    padding:1%;
+    margin:0;
+}
+
+input{
+    width:80%;
+    height:30px;
+    margin:3% 0 1% 0;
+}
+
+button{
+    background:lightblue;
+    padding:1%;
+    margin:1%;
+    border-radius:10px;
+    width:50%;
+}
+
+
+</style>
+  </body>
+</html>
