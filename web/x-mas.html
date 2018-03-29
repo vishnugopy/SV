@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Wishes From Vishnugopy</title>
+    <link rel="stylesheet" href="CSS\stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/js.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="PHOTO\2.jpg" />
+  </head>
+  <body>
+      <h3>Hi!I Wish you </h3>
+      <h2>Merry Christmas</h2>
+      <div class="greeting"><h1></h1></div>
+      <img class="cen" src="../img/xxxx.gif" alt="01">
+
+
+      
+      <section class="pop-up">
+<div class="box">
+  <form class="form">
+    <h4>Please enter your name here</h4>
+			<div><input type="text" placeholder="Name" required/></div>
+			<div><button class="close" type="submit">Let's Go! <i class="fas arrow-right"></i></button></div>
+		</form>
+</div>
+  </section>
+
+
+<footer>
+  <a href="https://www.instagram.com/__vishnu__10/">&copy;Vishnugopy</a>
+
+</footer>
+      <script>
+
+$(document).ready(function(){
+	
+	$(".close").click(function(){
+    $(".pop-up").hide();
+    $(".fly").hide();
+ 
+});
+	
+	$("button").click(function() {
+	
+		var nameValue = $("input[type=text]").val().trim(),
+				nameField = $("input[type=text]");
+		
+		if(nameValue) {
+			$(this).remove();
+			nameField.prop("disabled", true);
+			$("h1").append(nameValue);
+			$(".greeting").show(300);
+            $(".fly").show(300);
+            
+		}
+	});
+});
+      </script>
+	
+      
+      
+
+<style>
+body{
+  text-align: center;
+  background: linear-gradient(to right,red,white,red);
+
+}
+
+h3{
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h1{
+font-family: 'Pacifico', cursive;
+}
+
+h2{
+font-family: 'Mountains of Christmas', cursive;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:blue;
+
+}
+
+.box{
+    background:white;
+    height:200px;
+    width:auto;
+    border:1px blue solid;
+}
+
+.pop-up{
+    margin: auto;
+    position: absolute;
+    top:30%; left:5%; bottom:0; right: 5%;
+}
+
+.box h4{
+    background:lightblue;
+    padding:1%;
+    margin:0;
+}
+
+input{
+    width:80%;
+    height:30px;
+    margin:3% 0 1% 0;
+}
+
+button{
+    background:lightblue;
+    padding:1%;
+    margin:1%;
+    border-radius:10px;
+    width:50%;
+}
+
+</style>
+  </body>
+</html>
