@@ -1,0 +1,235 @@
+body {
+    width: 100%;
+    margin: 0;
+    background: black;
+}
+
+.photo {
+    height: auto;
+    width: 100%;
+}
+
+.flero {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    padding: 1%;
+    flex-wrap: wrap;
+
+}
+
+.mine {
+    margin-top: -5px;
+    border-top: 4px solid white;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1.5%;
+    flex: 3;
+}
+
+.flero a {
+    color: white;
+    font-size: 5vh;
+}
+
+.twitter:hover {
+    border: 1px solid grey;
+    background: linear-gradient(to bottom right, #00b2ff, #00b2ff, white);
+}
+
+.mail:hover {
+    border: 1px solid grey;
+    background: linear-gradient(to bottom right, red, white);
+}
+
+.youtube:hover {
+    border: 1px solid grey;
+    background: linear-gradient(to bottom right, red, pink);
+}
+
+
+.snap:hover {
+    border: 1px solid grey;
+    background: linear-gradient(to bottom right, #fff200, #fff200, white);
+}
+
+.insta:hover {
+    border: 1px solid grey;
+    background: linear-gradient(to bottom right, #aa00ff, #ff263b, #ff9900, white);
+}
+
+.twitter {
+    width: 100%;
+    height: auto;
+    background: black;
+    text-align: center;
+    padding: 1.5%;
+    margin: 1%;
+    border: 2px solid grey;
+}
+
+.mail {
+    width: 100%;
+    height: auto;
+    background: black;
+    text-align: center;
+    padding: 1.5%;
+    margin: 1%;
+    border: 2px solid grey;
+}
+
+.insta {
+    width: 100%;
+    height: auto;
+    background: black;
+    text-align: center;
+    padding: 1.5%;
+    margin: 1%;
+    border: 2px solid grey;
+}
+
+.snap {
+    width: 100%;
+    height: auto;
+    background: black;
+    text-align: center;
+    padding: 1.5%;
+    margin: 1%;
+    border: 2px solid grey;
+}
+
+.youtube {
+    width: 100%;
+    height: auto;
+    background: black;
+    text-align: center;
+    padding: 1.5%;
+    margin: 1%;
+    border: 2px solid grey;
+}
+
+.all {
+    background: black;
+}
+
+.box {
+    border: 2px solid white;
+    margin: 0.5%;
+}
+
+h2,
+h4,
+h1,
+h3 {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.LOG {
+    height: auto;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    padding-left: 2%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: grey;
+    border-bottom: 1px solid white;
+}
+
+.btnf{
+    width:95%;
+    height:auto;
+    background:grey;
+    text-align: center;
+    margin:2%;
+    border:2px solid grey;
+    border-radius:3px;
+}
+
+a{
+    text-decoration: none
+}
+
+
+footer {
+    background: grey;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: white;
+
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+}
+
+h4 {
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+
+
+.shop:hover {
+    transform: scale(1.2)
+}
+
+
+.shop {
+    margin: 3% 2% 2% 2%;
+    font-size: 5vh;
+    color: white;
+}
+
+@keyframes glissement {
+
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+}
+
+@keyframes jump {
+    0% {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    }
+    40% {
+        transform: translate3d(0, 30%, 0) scale3d(1, 1, 1);
+    }
+    70% {
+        transform: translate3d(0, 70%, 0) scale3d(1, 1, 1);
+    }
+}
+
+.copy {
+    transform-origin: 50% 50%;
+    animation: jump .5s linear alternate infinite;
+    text-align: center;
+}
