@@ -380,24 +380,40 @@ figcaption{
 }
 
 .sale{
+    display:inline-block;
     display: flex;
-    border:1px black solid;
-    border-radius: 50px 50px 50px 50px;
+    border-radius:5% 5% 5% 5%;
+    border-radius:5% 5% 5% 5%;
     box-shadow: 3px 3px 5px grey;
     width:90%;
     height:auto;
     margin:1%;
+    padding:2%;
     
 }
 
 .detailes{
-    flex:5;
-    float:left;
+position:absolute;
+left:50%;
 }
 
 
+.pot img{
+    position:relative;
+    border-radius:5% 5% 5% 5%;
+    width:50%;
+    height:auto;
+}
 
-
+.btn{
+    border-radius:25px;
+    width:40%;
+    height:100%;
+    background:white;
+    text-align: center;
+    margin:auto;
+    border:1px solid black;
+}
 
 
 
