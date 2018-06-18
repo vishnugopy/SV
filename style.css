@@ -347,7 +347,8 @@ ul,li{
 
 .fa-hdd{
     color:black;
-    margin:2%;
+    font-size:3vw;
+    margin:1.5% 0 1.5% 2%;
 }
 
 
@@ -357,10 +358,42 @@ ul,li{
     color:black;
     font-size:3vw;
     margin:1.5% 0 1.5% 0;
+}
 
+.log{
+    border-radius: 50px 50px 50px 50px;
+    width:100%;
+    height:auto;
+}
+figure{
+  width:25%;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 3px 3px 5px grey;
+  display:inline-block;
+  padding: 20px;
+}
 
+figcaption{
+  text-align: center;
+  font-style:italic;
+  font-size: 0.8em;
+}
 
+.sale{
+    display: flex;
+    border:1px black solid;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 3px 3px 5px grey;
+    width:90%;
+    height:auto;
+    margin:1%;
+    
+}
 
+.detailes{
+    flex:5;
+    float:left;
+}
 
 
 
