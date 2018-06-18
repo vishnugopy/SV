@@ -4,33 +4,56 @@ body {
     background: black;
 }
 
+header{
+    background-color:white;
+    border:2px solid black;
+    border-radius: 50px 50px 50px 50px;
+    text-align:center;
+    margin:0.5%
+}
+
+.flex {
+    display: flex;
+}
+
+.fa-bars{
+    margin:1.5% 0 1.5% 2%;
+    font-size:3vw;
+}
+
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    flex:5;
+    color:black;
+    font-size:3vw;
+    margin:1.5% 0 1.5% 0;
+}
+
+
 .photo {
-    height: auto;
-    width: 100%;
+    background-image:url(img/001.jpg);
+    background-position:center;
+    display: block;
+    border:1px white solid;
+    height:300px;
+    width:30%;
+    border-radius:30% 10% 30% 10%;
+    
 }
 
 .flero {
     display: flex;
     flex-direction: row;
     background: black;
-    padding: 1%;
     flex-wrap: wrap;
 
 }
 
-.mine {
-    margin-top: -5px;
-    border-top: 4px solid white;
-    background: black;
-    color: white;
-    text-align: center;
-    padding: 1.5%;
-    flex: 3;
-}
 
 .flero a {
     color: white;
-    font-size: 5vh;
+    font-size: 1vh;
 }
 
 .twitter:hover {
@@ -118,24 +141,13 @@ body {
     margin: 0.5%;
 }
 
-h2,
-h4,
-h1,
-h3 {
-    margin: 0;
-}
 
-.flex {
-    display: flex;
-}
+
+
 
 .LOG {
     height: auto;
     width: 100%;
-}
-
-h1 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 h2 {
