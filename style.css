@@ -361,13 +361,13 @@ ul,li{
 }
 
 .log{
-    border-radius: 50px 50px 50px 50px;
+    border-radius:5% 5% 5% 5%;
     width:100%;
     height:auto;
 }
 figure{
   width:25%;
-  border-radius: 50px 50px 50px 50px;
+  border-radius:5% 5% 5% 5%;
   box-shadow: 3px 3px 5px grey;
   display:inline-block;
   padding: 20px;
