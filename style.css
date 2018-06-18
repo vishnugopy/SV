@@ -366,11 +366,11 @@ ul,li{
     height:auto;
 }
 figure{
-  width:25%;
+  width:60%;
   border-radius:5% 5% 5% 5%;
   box-shadow: 3px 3px 5px grey;
   display:inline-block;
-  padding: 20px;
+  padding:0.5%;
 }
 
 figcaption{
@@ -421,6 +421,12 @@ left:50%;
     font-size:2vw;
 }
 
+.par{
+    margin:auto;
+    display:inline-block;
+    display:flex;
+    flex-wrap:wrap;
+}
 
 
 
