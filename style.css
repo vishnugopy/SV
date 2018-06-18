@@ -5,7 +5,7 @@ body {
     background:whitesmoke;
 }
 
-header{
+.head{
     background-color:white;
     border:1px solid black;
     border-radius: 50px 50px 50px 50px;
@@ -149,6 +149,12 @@ h2 {
     color:white;
 }
 
+.git:hover {
+    border: 1px solid grey;
+    background: linear-gradient(to bottom right, black, white);
+    color:white;
+}
+
 .insta:hover h2{
     color:white;
 }
@@ -160,7 +166,10 @@ h2 {
     color:white;
 }.mail:hover h2{
     color:white;
+}.git:hover h2{
+    color:white;
 }
+
 
 
 .mail {
@@ -220,6 +229,20 @@ h2 {
 }
 
 .youtube {
+    border-radius: 50px 50px 50px 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    width: 100%;
+    height:auto;
+    padding:0% 0% 0% 40%;
+    background: white;
+    margin:1%;
+    border: 1px solid black;
+}
+
+.git{
     border-radius: 50px 50px 50px 50px;
     display:flex;
     justify-content:center;
