@@ -7,7 +7,7 @@ body {
 
 header{
     background-color:white;
-    border:2px solid black;
+    border:1px solid black;
     border-radius: 50px 50px 50px 50px;
     text-align:center;
     margin:0.5%
@@ -39,7 +39,7 @@ section{
     width:50%;
     height:100%;
     margin:1%;
-    border:2px black solid;
+    border:3px black solid;
     border-radius:25% 0% 25% 0%;
     
 }
@@ -48,7 +48,7 @@ section{
     background:white;
     color:black;
     padding:1%;
-    border:2px solid black;
+    border:1px solid black;
     border-radius: 50px 50px 50px 50px;
     text-align:left;
     margin:0.5%
@@ -68,10 +68,20 @@ h3 {
     color:black;
 }
 
+h2 {
+    font-size:2vw;
+    margin-left:3%;
+    font-family: 'Merriweather', serif;
+    color: white;
+    
+}
+
+
+
 .flero {
     display: flex;
     flex-direction: row;
-    background: black;
+    background:whitesmoke;
     flex-wrap: wrap;
 
 }
@@ -111,7 +121,7 @@ h3 {
 .twitter {
     width: 100%;
     height: auto;
-    background: black;
+    background: white;
     text-align: center;
     padding: 1.5%;
     margin: 1%;
@@ -121,7 +131,7 @@ h3 {
 .mail {
     width: 100%;
     height: auto;
-    background: black;
+    background: white;
     text-align: center;
     padding: 1.5%;
     margin: 1%;
@@ -131,7 +141,7 @@ h3 {
 .insta {
     width: 100%;
     height: auto;
-    background: black;
+    background: white;
     text-align: center;
     padding: 1.5%;
     margin: 1%;
@@ -141,7 +151,7 @@ h3 {
 .snap {
     width: 100%;
     height: auto;
-    background: black;
+    background: white;
     text-align: center;
     padding: 1.5%;
     margin: 1%;
@@ -151,7 +161,7 @@ h3 {
 .youtube {
     width: 100%;
     height: auto;
-    background: black;
+    background: white;
     text-align: center;
     padding: 1.5%;
     margin: 1%;
@@ -173,16 +183,12 @@ h3 {
     width: 100%;
 }
 
-h2 {
-    font-family: 'Merriweather', serif;
-    color: white;
-    
-}
+
 
 .btnf{
     width:95%;
     height:auto;
-    background:grey;
+    background:white;
     text-align: center;
     margin:2%;
     border:2px solid grey;
@@ -195,7 +201,7 @@ a{
 
 
 footer {
-    background: grey;
+    background: white;
     height:100%;
     padding: 4%;
     display: flex;
@@ -205,8 +211,8 @@ footer {
 
 footer a {
     text-decoration: none;
-    font-family: 'Encode Sans Condensed', sans-serif;
-    color: white;
+    font-family: 'Lobster', cursive;
+    color: black;
 
 }
 
