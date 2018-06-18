@@ -23,7 +23,8 @@ body {
 }
 
 
-h1 {
+
+h1{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     flex:5;
     color:black;
@@ -331,4 +332,62 @@ ul,li{
         transform: translate3d(0, 70%, 0) scale3d(1, 1, 1);
     }
 }
+
+
+/*store page csss*************************************************************/
+
+
+.head1{
+    background-color:white;
+    border:1px solid black;
+    border-radius: 50px 50px 50px 50px;
+    text-align:center;
+    margin:8% 1% 0 1%;
+}
+
+.fa-hdd{
+    color:black;
+    margin:2%;
+}
+
+
+.storhed{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    flex:3;
+    color:black;
+    font-size:3vw;
+    margin:1.5% 0 1.5% 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
