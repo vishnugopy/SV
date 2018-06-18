@@ -19,7 +19,7 @@ body {
 
 .fa-bars{
     margin:1.5% 0 1.5% 2%;
-    font-size:3vw;
+    font-size:4vw;
 }
 
 
@@ -28,7 +28,7 @@ h1{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     flex:5;
     color:black;
-    font-size:3vw;
+    font-size:4vw;
     margin:1.5% 0 1.5% 0;
 }
 section{
@@ -69,14 +69,14 @@ section{
     margin-left:5%;
 }
 h3 {
-    font-size:2vw;
+    font-size:3vw;
     margin:0;
     font-family: 'Lobster', cursive;
     color:black;
 }
 
 h2 {
-    font-size:2vw;
+    font-size:3vw;
     margin-left:3%;
     font-family: 'Righteous', cursive;
     color: black;
@@ -110,11 +110,11 @@ h2 {
 
 .flero a {
     color:black;
-    font-size:5vw;
+    font-size:6vw;
 }
 
 .flero h2{
-    font-size:4vw;
+    font-size:5vw;
     margin:0 0 0 1%;
     flex:3;
 }
@@ -347,7 +347,7 @@ ul,li{
 
 .fa-hdd{
     color:black;
-    font-size:3vw;
+    font-size:4vw;
     margin:1.5% 0 1.5% 2%;
 }
 
@@ -356,7 +356,7 @@ ul,li{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     flex:3;
     color:black;
-    font-size:3vw;
+    font-size:4vw;
     margin:1.5% 0 1.5% 0;
 }
 
@@ -376,11 +376,10 @@ figure{
 figcaption{
   text-align: center;
   font-style:italic;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .sale{
-    display:inline-block;
     display: flex;
     border-radius:5% 5% 5% 5%;
     border-radius:5% 5% 5% 5%;
@@ -418,7 +417,8 @@ left:50%;
 
 .detailes h3{
     font-family: 'Poiret One', cursive;
-    font-size:2vw;
+    font-size:3vw;
+     width:110%;
 }
 
 .par{
@@ -428,6 +428,14 @@ left:50%;
     flex-wrap:wrap;
 }
 
+
+@media only screen and (max-width: 1024px) {
+ .detailes h3{
+    font-family: 'Poiret One', cursive;
+    font-size:3vw;
+    width:80%;
+}
+}
 
 
 
