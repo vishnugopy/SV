@@ -54,7 +54,7 @@ section{
     background:white;
     color:black;
     padding:1%;
-    border:1px solid black;
+    border:4px double black;
     border-radius: 50px 50px 50px 50px;
     text-align:left;
     margin:0.5%
@@ -77,8 +77,8 @@ h3 {
 h2 {
     font-size:2vw;
     margin-left:3%;
-    font-family: 'Merriweather', serif;
-    color: white;
+    font-family: 'Righteous', cursive;
+    color: black;
     
 }
 
@@ -108,91 +108,131 @@ h2 {
 
 
 .flero a {
-    color: white;
-    font-size: 1vh;
+    color:black;
+    font-size:5vw;
 }
 
+.flero h2{
+    font-size:4vw;
+    margin:0 0 0 1%;
+    flex:3;
+}
+
+
+.mail:hover {
+    border: 1px dashed black;
+    background: linear-gradient(to bottom right, #00b2ff, #00b2ff, white);
+    color:white;
+}
 .twitter:hover {
     border: 1px solid grey;
     background: linear-gradient(to bottom right, #00b2ff, #00b2ff, white);
-}
-
-.mail:hover {
-    border: 1px solid grey;
-    background: linear-gradient(to bottom right, red, white);
+    color:white;
 }
 
 .youtube:hover {
     border: 1px solid grey;
     background: linear-gradient(to bottom right, red, pink);
+    color:white;
 }
 
 
 .snap:hover {
     border: 1px solid grey;
     background: linear-gradient(to bottom right, #fff200, #fff200, white);
+    color:white;
 }
 
 .insta:hover {
     border: 1px solid grey;
     background: linear-gradient(to bottom right, #aa00ff, #ff263b, #ff9900, white);
+    color:white;
+}
+
+.insta:hover h2{
+    color:white;
+}
+.snap:hover h2{
+    color:white;
+}.youtube:hover h2{
+    color:white;
+}.twitter:hover h2{
+    color:white;
+}.mail:hover h2{
+    color:white;
+}
+
+
+.mail {
+    border-radius: 50px 50px 50px 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    width: 100%;
+    height:auto;
+    padding:0% 0% 0% 40%;
+    background: white;
+    margin:1%;
+    border: 1px solid black;
 }
 
 .twitter {
+     border-radius: 50px 50px 50px 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
     width: 100%;
-    height: auto;
+    height:auto;
+    padding:0% 0% 0% 40%;
     background: white;
-    text-align: center;
-    padding: 1.5%;
-    margin: 1%;
-    border: 2px solid grey;
-}
-
-.mail {
-    width: 100%;
-    height: auto;
-    background: white;
-    text-align: center;
-    padding: 1.5%;
-    margin: 1%;
-    border: 2px solid grey;
+    margin:1%;
+    border: 1px solid black;
 }
 
 .insta {
+     border-radius: 50px 50px 50px 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
     width: 100%;
-    height: auto;
+    height:auto;
+    padding:0% 0% 0% 40%;
     background: white;
-    text-align: center;
-    padding: 1.5%;
-    margin: 1%;
-    border: 2px solid grey;
+    margin:1%;
+    border: 1px solid black;
 }
 
 .snap {
+     border-radius: 50px 50px 50px 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
     width: 100%;
-    height: auto;
+    height:auto;
+    padding:0% 0% 0% 40%;
     background: white;
-    text-align: center;
-    padding: 1.5%;
-    margin: 1%;
-    border: 2px solid grey;
+    margin:1%;
+    border: 1px solid black;
 }
 
 .youtube {
+    border-radius: 50px 50px 50px 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
     width: 100%;
-    height: auto;
+    height:auto;
+    padding:0% 0% 0% 40%;
     background: white;
-    text-align: center;
-    padding: 1.5%;
-    margin: 1%;
-    border: 2px solid grey;
+    margin:1%;
+    border: 1px solid black;
 }
 
-
-.box {
-    border: 2px solid white;
-    margin: 0.5%;
-}
 
 
 
