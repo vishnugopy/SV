@@ -33,6 +33,12 @@ h1 {
 section{
     height:auto;
     width:100%;
+
+}
+
+.first{
+    animation-name:glissement;
+    animation-duration:1s;  
 }
 
 .photo {
@@ -76,7 +82,21 @@ h2 {
     
 }
 
+.btnf{
+    border-radius:25px;
+    width:40%;
+    height:100%;
+    background:white;
+    text-align: center;
+    margin:auto;
+    border:1px solid black;
+    animation-name:glissement;
+    animation-duration:1s;
+}
 
+.dance{
+    margin-left:1%;
+}
 
 .flero {
     display: flex;
@@ -184,16 +204,6 @@ h2 {
 }
 
 
-
-.btnf{
-    width:95%;
-    height:auto;
-    background:white;
-    text-align: center;
-    margin:2%;
-    border:2px solid grey;
-    border-radius:3px;
-}
 
 a{
     text-decoration: none
