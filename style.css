@@ -405,6 +405,8 @@ left:50%;
 }
 
 .btn{
+    text-align:center;
+    padding:0 1% 0 1% ; 
     border-radius:25px;
     width:40%;
     height:100%;
