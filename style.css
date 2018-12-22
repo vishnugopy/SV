@@ -39,7 +39,7 @@ section{
 
 .first{
     animation-name:glissement;
-    animation-duration:1s;  
+    animation-duration:1s;
 }
 
 .photo {
@@ -48,7 +48,7 @@ section{
     margin:1%;
     border:3px black solid;
     border-radius:25% 0% 25% 0%;
-    
+
 }
 
 .cover{
@@ -80,7 +80,7 @@ h2 {
     margin-left:3%;
     font-family: 'Righteous', cursive;
     color: black;
-    
+
 }
 
 .btnf{
@@ -342,7 +342,7 @@ ul,li{
     border:1px solid black;
     border-radius: 50px 50px 50px 50px;
     text-align:center;
-    margin:8% 1% 0 1%;
+    margin:1% 1% 0 1%;
 }
 
 .fa-hdd{
@@ -365,11 +365,19 @@ ul,li{
     width:100%;
     height:auto;
 }
+
+
+.par{
+    margin:auto;
+    display:flex;
+}
+
+
 figure{
-  width:60%;
-  border-radius:5% 5% 5% 5%;
+  width:80%;
+  height:50;
+  /* border-radius:5% 0% 5% 0%; */
   box-shadow: 3px 3px 5px grey;
-  display:inline-block;
   padding:0.5%;
 }
 
@@ -381,14 +389,13 @@ figcaption{
 
 .sale{
     display: flex;
-    border-radius:5% 5% 5% 5%;
-    border-radius:5% 5% 5% 5%;
+    /* border-radius:5% 5% 5% 5%; */
     box-shadow: 3px 3px 5px grey;
     width:90%;
     height:auto;
     margin:1%;
     padding:2%;
-    
+
 }
 
 .detailes{
@@ -406,7 +413,7 @@ left:50%;
 
 .btn{
     text-align:center;
-    padding:0 1% 0 1% ; 
+    padding:0 1% 0 1% ;
     border-radius:25px;
     width:40%;
     height:100%;
@@ -423,39 +430,14 @@ left:50%;
      width:110%;
 }
 
-.par{
-    margin:auto;
-    display:inline-block;
-    display:flex;
-    flex-wrap:wrap;
-}
-
-
 @media only screen and (max-width: 1024px) {
  .detailes h3{
     font-family: 'Poiret One', cursive;
     font-size:3vw;
     width:80%;
 }
+
+.par{
+flex-wrap: wrap;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
