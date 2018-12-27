@@ -20,7 +20,7 @@
       <img class="cen" src="../img/xxxx.gif" alt="01">
 
 
-      
+
       <section class="pop-up">
 <div class="box">
   <form class="form">
@@ -35,41 +35,41 @@
 <footer>
   <a href="../index.html">&copy;Vishnugopy2018</a>
 </footer>
-    
+
 
 <script>
 $(document).ready(function(){
-	
+
 	$(".close").click(function(){
     $(".pop-up").hide();
     $(".fly").hide();
- 
+
 });
-	
+
 	$("button").click(function() {
-	
+
 		var nameValue = $("input[type=text]").val().trim(),
 				nameField = $("input[type=text]");
-		
+
 		if(nameValue) {
 			$(this).remove();
 			nameField.prop("disabled", true);
 			$("h1").append(nameValue);
 			$(".greeting").show(300);
             $(".fly").show(300);
-            
+
 		}
 	});
 });
 </script>
 
-    
+
 <style>
-  
+
 body{
 text-align: center;
 background:#D3CCE3;
-background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3); 
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
 background: linear-gradient(to right, pink, red);
 background-repeat:repeat-y;
 }
@@ -85,7 +85,7 @@ text-shadow:
    -1px 1px 0 #ffffff,
     1px 1px 0 #ffffff;
 }
-  
+
 h1{
 font-family: 'Berkshire Swash', cursive;
 font-size:7vh;
@@ -121,12 +121,12 @@ text-shadow:
      -1px 1px 0 #000,
       1px 1px 0 #000;
 }
-  
+
 .cen{
   height:100%;
   width:300px;
 }
-  
+
 .pop-up{
     background:whitesmoke;
     height:auto;
@@ -139,7 +139,7 @@ text-shadow:
     right:5%;
 }
 .box h4{
-    font-size:2vh;
+    font-size:3vh;
     font-family: 'Bungee', cursive;
     padding:1%;
     margin:0;
@@ -156,7 +156,7 @@ input{
 }
 button{
     font-family: 'Bungee', cursive;
-    font-size:2vh;
+    font-size:3vh;
     color:white;
     background-image: linear-gradient(to bottom, #051937, #10325f, #184f8b, #1b6dba, #128deb);
     padding:0.5%;
