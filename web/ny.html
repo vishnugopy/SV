@@ -5,7 +5,7 @@
     <title> Wishes From Your Friend</title>
     <link rel="stylesheet" href="CSS\stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
@@ -16,10 +16,10 @@
       <h3>Hi! I Wish you </h3>
       <h2>Happy New year 2019</h2>
       <div class="greeting"><h1></h1></div>
-      <img class="cen" src="https://vishnugopy.github.io/SV/img/tt.png" alt="01">
+      <img class="cen" src="../img/nw2019.png" alt="new year 2019">
 
 
-        
+
       <section class="pop-up">
 <div class="box">
   <form class="form">
@@ -34,45 +34,45 @@
 <footer>
   <a href="../index.html">&copy;Vishnugopy2018</a>
 </footer>
-    
-    
-    
-    
-    
+
+
+
+
+
       <script>
-         
+
 $(document).ready(function(){
-	
+
 	$(".close").click(function(){
     $(".pop-up").hide();
     $(".fly").hide();
- 
+
 });
-	
+
 	$("button").click(function() {
-	
+
 		var nameValue = $("input[type=text]").val().trim(),
 				nameField = $("input[type=text]");
-		
+
 		if(nameValue) {
 			$(this).remove();
 			nameField.prop("disabled", true);
 			$("h1").append(nameValue);
 			$(".greeting").show(300);
             $(".fly").show(300);
-            
+
 		}
 	});
 });
       </script>
 
-    
+
 <style>
-  
+
 body{
 text-align: center;
 background:#D3CCE3;
-background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3); 
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
 background: linear-gradient(to right, #E9E4F0, #D3CCE3);
 background-repeat:repeat-y;
 }
@@ -88,7 +88,7 @@ text-shadow:
    -1px 1px 0 #ffffff,
     1px 1px 0 #ffffff;
 }
-  
+
 h1{
 font-family: 'Berkshire Swash', cursive;
 font-size:7vh;
@@ -124,12 +124,12 @@ text-shadow:
      -1px 1px 0 #000,
       1px 1px 0 #000;
 }
-  
+
 .cen{
-  height:100%;
-  width:300px;
+  height:auto;
+  width:80%;
 }
-  
+
 .pop-up{
     background:whitesmoke;
     height:auto;
