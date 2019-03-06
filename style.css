@@ -376,7 +376,6 @@ ul,li{
     padding: 1%;
     width:100%;
     display:flex;
-  /*  flex-wrap:wrap;*/
 }
 
 
@@ -449,5 +448,6 @@ left:50%;
 
 .par{
 flex-wrap: wrap;
+margin:0 0 0 2.5%;
 }
 }
