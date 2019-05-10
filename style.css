@@ -1,7 +1,7 @@
 body {
-    width: 100%;
+    width:96%;
     height:100%;
-    margin: 0;
+    margin:1%;
     background:whitesmoke;
 }
 
@@ -128,58 +128,6 @@ h2 {
 }
 
 
-.mail:hover {
-    border: 1px dashed black;
-      background: linear-gradient(to bottom right,pink,red);
-    color:white;
-}
-.twitter:hover {
-    border: 1px solid grey;
-    background: linear-gradient(to bottom right, #00b2ff, #00b2ff, white);
-    color:white;
-}
-
-.youtube:hover {
-    border: 1px solid grey;
-    background: linear-gradient(to bottom right, red, pink);
-    color:white;
-}
-
-
-.snap:hover {
-    border: 1px solid grey;
-    background: linear-gradient(to bottom right, #fff200, #fff200, white);
-    color:white;
-}
-
-.insta:hover {
-    border: 1px solid grey;
-    background: linear-gradient(to bottom right, #aa00ff, #ff263b, #ff9900, white);
-    color:white;
-}
-
-.git:hover {
-    border: 1px solid grey;
-    background: linear-gradient(to bottom right, black, white);
-    color:white;
-}
-
-.insta:hover h2{
-    color:white;
-}
-.snap:hover h2{
-    color:white;
-}.youtube:hover h2{
-    color:white;
-}.twitter:hover h2{
-    color:white;
-}.mail:hover h2{
-    color:white;
-}.git:hover h2{
-    color:white;
-}
-
-
 
 .mail {
     border-radius: 50px 50px 50px 50px;
@@ -272,12 +220,12 @@ a{
 
 
 footer {
-    background: white;
-    height:100%;
-    padding: 4%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    position: fixed;
+    bottom:0;
+    background:whitesmoke;
+    height:2%;
+    width:100%;
+    padding: 2%;
 }
 
 footer a {
@@ -295,8 +243,6 @@ h4 {
 }
 
 .copy {
-    transform-origin: 50% 50%;
-    animation: jump .5s linear alternate infinite;
     text-align: center;
 }
 
@@ -304,34 +250,7 @@ ul,li{
     margin:0;
 }
 
-@keyframes glissement {
 
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-
-}
-
-@keyframes jump {
-    0% {
-        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-    }
-    40% {
-        transform: translate3d(0, 30%, 0) scale3d(1, 1, 1);
-    }
-    70% {
-        transform: translate3d(0, 70%, 0) scale3d(1, 1, 1);
-    }
-}
-
-
-/*store page csss*************************************************************/
 .log{
     height:100%;
     width:auto;
