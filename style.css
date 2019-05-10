@@ -266,14 +266,6 @@ h2 {
 }
 
 
-
-
-
-
-
-
-
-
 a{
     text-decoration: none
 }
@@ -340,7 +332,10 @@ ul,li{
 
 
 /*store page csss*************************************************************/
-
+.log{
+    height:100%;
+    width:auto;
+}
 
 .head1{
     background-color:white;
@@ -365,44 +360,13 @@ ul,li{
     margin:1.5% 0 1.5% 0;
 }
 
-.log{
-    border-radius:5% 5% 5% 5%;
-    width:100%;
-    height:auto;
-}
-
-
-.par{
-    padding: 1%;
-    width:100%;
-    display:flex;
-}
-
-
-figure{
-  width:90%;
-  height:auto;
-  box-shadow: 3px 3px 5px grey;
-  padding:0.5%;
-  margin:0 0 1.5% 0;
-}
-
-
-
-figcaption{
-  text-align: center;
-  font-style:italic;
-  font-size: 1em;
-  margin:0;
-}
-
 .sale{
     display: flex;
     /* border-radius:5% 5% 5% 5%; */
     box-shadow: 3px 3px 5px grey;
-    width:90%;
-    height:auto;
-    margin:1%;
+    width:auto;
+    height:100%;
+    margin:2%;
     padding:2%;
 
 }
@@ -410,6 +374,7 @@ figcaption{
 .detailes{
 position:absolute;
 left:50%;
+padding:2%;
 }
 
 
@@ -446,8 +411,4 @@ left:50%;
     width:80%;
 }
 
-.par{
-flex-wrap: wrap;
-margin:0 0 0 4%;
-}
 }
