@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
 body {
     width:auto;
     height:100%;
@@ -45,39 +51,39 @@ body {
 }
 
 h1{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
     flex:5;
     color:black;
     font-size:4vw;
     margin:1.5% 0 1.5% 0;
+    font-family: 'Exo', sans-serif;
 }
 
 h2 {
     font-size:3vw;
     margin-left:3%;
-    font-family: 'Righteous', cursive;
     color: black;
     margin:0px;
+    font-family: 'Macondo Swash Caps', cursive;
 
 }
 
 h3 {
+    font-family: 'Rokkitt', serif;
     font-size:3vw;
     margin:0;
-    font-family: 'Lobster', cursive;
     color:black;
     margin:0px;
 }
 
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Cookie', cursive;
     font-size:2.4vw;
-    color: black;
     margin:0px;
+    color:#0060ff;
 }
 
 p{  
-    font-family: 'Lobster', cursive;
+    font-family: 'Sofia', cursive;
     font-size:2.8vw;
     margin:0;
     color: black;
@@ -85,6 +91,7 @@ p{
 
 a{
     text-decoration: none;
+    
 }
 
 li{
@@ -103,11 +110,13 @@ li{
 
 .subheading{
     color:black;
+    background:linear-gradient(#adccff,whitesmoke);
     padding:1%;
     border-bottom:5px double black;
     border-top:3px double black;
     text-align:center;
     margin:5% 0% 3% 0%;
+    box-shadow: 5px 5px 6px black;
 }
 
 .text{
@@ -121,27 +130,6 @@ li{
 .products{
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .btnf{
     border-radius:25px;
@@ -269,6 +257,7 @@ li{
 
 
 footer {
+    color:#0060ff;
     margin-top:5%;
     background:whitesmoke;
     height:2%;
@@ -277,12 +266,15 @@ footer {
 
 footer a {
     text-decoration: none;
-    font-family: 'Lobster', cursive;
     color: black;
 
 }
 
-.copy {
+.copy{
+    font-family: 'Cookie', cursive;
+    font-size:2.4vw;
+    margin:0px;
+    color:#0060ff;
     text-align: center;
 }
 
@@ -338,6 +330,7 @@ ul,li li,p{
 }
 
 .btn{
+    background:linear-gradient(#9efaff,whitesmoke);
     position: absolute;
     bottom:0;
     text-align:center;
@@ -345,24 +338,9 @@ ul,li li,p{
     border-radius:25px;
     width:50%;
     height:auto;
-    background:white;
     text-align: center;
     margin:10% 0 0 0 ;
     border:1px solid black;
 }
 
 
-.detailes h3{
-    font-family: 'Poiret One', cursive;
-    font-size:3vw;
-    width:auto;
-}
-
-@media only screen and (max-width: 1024px) {
-    .detailes h3{
-        font-family: 'Poiret One', cursive;
-        font-size:3vw;
-        width:80%;
-    }
-
-}
