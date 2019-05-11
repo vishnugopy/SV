@@ -1,9 +1,14 @@
 body {
-    width:99%;
+    width:98%;
     height:100%;
     background:whitesmoke;
-    margin:0;
-    padding:0.5;
+    margin:0px;
+    display: block;
+    -webkit-margin-right:0px;
+    -webkit-margin-left:0px;
+    -webkit-margin-bottom:0px;
+    -webkit-margin-top:0px;
+
 }
 
 .myhead{
@@ -55,6 +60,7 @@ h2 {
     margin-left:3%;
     font-family: 'Righteous', cursive;
     color: black;
+    margin:0;
 
 }
 
@@ -63,12 +69,30 @@ h3 {
     margin:0;
     font-family: 'Lobster', cursive;
     color:black;
+    margin:0;
 }
 
 h4 {
     font-family: 'Lobster', cursive;
     color: black;
+    margin:0;
 }
+
+p{  
+    font-family: 'Lobster', cursive;
+    font-size:2.8vw;
+    margin:0;
+    color: black;
+}
+
+a{
+    text-decoration: none
+}
+
+li{
+    font-size:2;
+}
+
 
 section{
     height:auto;
@@ -86,17 +110,17 @@ section{
 }
 
 .subheading{
-    background:white;
     color:black;
     padding:1%;
-    border:4px double black;
-    border-radius: 50px 50px 50px 50px;
-    text-align:left;
-    margin:0.5%
+    border-bottom:5px double black;
+    border-top:3px double black;
+    text-align:center;
+    margin:5% 0% 3% 0%;
+    width:100%;
 }
 
 .text{
-    margin:1%;
+    margin:1% 0 1% 5%;
 }
 
 .center{
@@ -227,16 +251,13 @@ section{
 }
 
 
-a{
-    text-decoration: none
-}
 
 
 footer {
     margin-top:5%;
     background:whitesmoke;
     height:2%;
-    width:100%;
+    width:98%;
     padding: 2%;
 }
 
@@ -251,7 +272,7 @@ footer a {
     text-align: center;
 }
 
-ul,li{
+ul,li li,p{
     margin:0;
 }
 
@@ -279,19 +300,19 @@ ul,li{
 
 .sale{
     display: flex;
+    position:static;
     /* border-radius:5% 5% 5% 5%; */
     box-shadow: 3px 3px 5px grey;
-    width:auto;
-    height:100%;
-    margin:2%;
+    width:100%;
+    height:auto;
     padding:2%;
 
 }
 
 .detailes{
-position:absolute;
-left:50%;
-padding:2%;
+    position:absolute;
+    left:50%;
+    padding:2%;
 }
 
 
@@ -318,14 +339,14 @@ padding:2%;
 .detailes h3{
     font-family: 'Poiret One', cursive;
     font-size:3vw;
-     width:110%;
+    width:110%;
 }
 
 @media only screen and (max-width: 1024px) {
- .detailes h3{
-    font-family: 'Poiret One', cursive;
-    font-size:3vw;
-    width:80%;
-}
+    .detailes h3{
+        font-family: 'Poiret One', cursive;
+        font-size:3vw;
+        width:80%;
+    }
 
 }
