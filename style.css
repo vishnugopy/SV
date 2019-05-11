@@ -1,17 +1,27 @@
 body {
-    width:96%;
+    width:99%;
     height:100%;
     background:whitesmoke;
     margin:0;
+    padding:0.5;
 }
 
-.head{
+.myhead{
     background-color:white;
     border:1px solid black;
     border-radius: 50px 50px 50px 50px;
     text-align:center;
     margin:0.5%
 }
+
+.storehead{
+    background-color:white;
+    border:1px solid black;
+    border-radius: 50px 50px 50px 50px;
+    text-align:center;
+    margin:1% 1% 0 1%;
+}
+
 
 .flex {
     display: flex;
@@ -29,7 +39,7 @@ body {
 }
 
 .menu:hover{
-    color:grey;
+    color:lightblue;
 }
 
 h1{
@@ -39,15 +49,31 @@ h1{
     font-size:4vw;
     margin:1.5% 0 1.5% 0;
 }
+
+h2 {
+    font-size:3vw;
+    margin-left:3%;
+    font-family: 'Righteous', cursive;
+    color: black;
+
+}
+
+h3 {
+    font-size:3vw;
+    margin:0;
+    font-family: 'Lobster', cursive;
+    color:black;
+}
+
+h4 {
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
 section{
     height:auto;
     width:100%;
 
-}
-
-.first{
-    animation-name:glissement;
-    animation-duration:1s;
 }
 
 .photo {
@@ -59,7 +85,7 @@ section{
 
 }
 
-.cover{
+.subheading{
     background:white;
     color:black;
     padding:1%;
@@ -69,27 +95,14 @@ section{
     margin:0.5%
 }
 
-.tex{
+.text{
     margin:1%;
 }
 
 .center{
     margin-left:5%;
 }
-h3 {
-    font-size:3vw;
-    margin:0;
-    font-family: 'Lobster', cursive;
-    color:black;
-}
 
-h2 {
-    font-size:3vw;
-    margin-left:3%;
-    font-family: 'Righteous', cursive;
-    color: black;
-
-}
 
 .btnf{
     border-radius:25px;
@@ -144,7 +157,7 @@ h2 {
 }
 
 .twitter {
-     border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -158,7 +171,7 @@ h2 {
 }
 
 .insta {
-     border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -172,7 +185,7 @@ h2 {
 }
 
 .snap {
-     border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -220,8 +233,7 @@ a{
 
 
 footer {
-    position: fixed;
-    bottom:0;
+    margin-top:5%;
     background:whitesmoke;
     height:2%;
     width:100%;
@@ -233,13 +245,6 @@ footer a {
     font-family: 'Lobster', cursive;
     color: black;
 
-}
-
-
-
-h4 {
-    font-family: 'Lobster', cursive;
-    color: black;
 }
 
 .copy {
@@ -256,13 +261,6 @@ ul,li{
     width:auto;
 }
 
-.head1{
-    background-color:white;
-    border:1px solid black;
-    border-radius: 50px 50px 50px 50px;
-    text-align:center;
-    margin:1% 1% 0 1%;
-}
 
 .fa-hdd{
     color:black;
@@ -271,7 +269,7 @@ ul,li{
 }
 
 
-.storhed{
+.caption{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     flex:3;
     color:black;
