@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps');
 @import url('https://fonts.googleapis.com/css?family=Rokkitt');
 @import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+
 
 body {
     width:auto;
@@ -81,6 +83,13 @@ h4 {
     margin:0px;
     color:#0060ff;
 }
+
+h5 {
+    font-size:2vw;
+    margin:0px;
+    font-family: 'Electrolize', sans-serif;
+}
+
 
 p{  
     font-family: 'Sofia', cursive;
@@ -257,20 +266,19 @@ li{
 
 
 footer {
-    color:#0060ff;
     margin-top:5%;
     background:whitesmoke;
     height:2%;
     padding: 2%;
+    text-align: center;
 }
 
 footer a {
     text-decoration: none;
-    color: black;
 
 }
 
-.copy{
+.copyrights{
     font-family: 'Cookie', cursive;
     font-size:2.4vw;
     margin:0px;
