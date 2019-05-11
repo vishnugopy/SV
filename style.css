@@ -324,27 +324,30 @@ ul,li li,p{
   width:40%;  
 }
 .detailes{
-    width:80%; 
-    padding:1%;
+    position: relative;
+    width:100%; 
+    padding:1% 0 0 3%;
     text-align:left;
 }
 
 .pot img{
     position:relative;
     border-radius:5% 5% 5% 5%;
-    width:50%;
+    width:100%;
     height:auto;
 }
 
 .btn{
+    position: absolute;
+    bottom:0;
     text-align:center;
-    padding:0 1% 0 1% ;
+    padding:1% 2% 1% 2%;
     border-radius:25px;
-    width:40%;
+    width:50%;
     height:auto;
     background:white;
     text-align: center;
-    margin:auto;
+    margin:10% 0 0 0 ;
     border:1px solid black;
 }
 
