@@ -100,7 +100,7 @@ p{
 
 a{
     text-decoration: none;
-    
+
 }
 
 li{
@@ -114,6 +114,21 @@ li{
     margin:1%;
     border:3px black solid;
     border-radius:25% 0% 25% 0%;
+    animation-name: shaaw;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+.storephoto{
+    padding:1%;
+    width:50%;
+    height:50%;
+    margin:-5% 0 0 1%;
+    animation-name: shaw;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
 
 }
 
@@ -142,14 +157,12 @@ li{
 
 .btnf{
     border-radius:25px;
-    width:40%;
-    height:100%;
+    width:80%;
+    height:auto;
     background:white;
     text-align: center;
     margin:auto;
     border:1px solid black;
-    animation-name:glissement;
-    animation-duration:1s;
 }
 
 .dance{
@@ -321,7 +334,7 @@ ul,li li,p{
 }
 
 .pot{
-  width:40%;  
+    width:40%;  
 }
 .detailes{
     position: relative;
@@ -351,4 +364,17 @@ ul,li li,p{
     border:1px solid black;
 }
 
+@keyframes shaaw {
+    0% {box-shadow: 5px 5px 10px grey;transform: rotateX(0deg); transform: rotate(0deg);}
+    25% {box-shadow:5px 5px 10px #00dcf9;transform: rotateX(30deg); transform: rotate(1deg);}
+    50% {box-shadow: 5px 5px 10px #ff00a5;transform: rotateX(-30deg); transform: rotate(-1deg);}
+    100% {box-shadow:5px 5px 10px grey;transform: rotateX(0deg); transform: rotate(0deg);}
+}
+
+@keyframes shaw {
+    0% {transform: rotateX(0deg); transform: rotate(0deg);}
+    25% {transform: rotateX(30deg); transform: rotate(1deg);}
+    50% {transform: rotateX(-30deg); transform: rotate(-1deg);}
+    100% {transform: rotateX(0deg); transform: rotate(0deg);}
+}
 
