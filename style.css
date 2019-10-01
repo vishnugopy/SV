@@ -9,47 +9,69 @@
 body {
     width:auto;
     height:100%;
-    background:whitesmoke;
+    background:white;
     margin:0px;
     display:block;
-    padding:1% 0 0 0;
-
+    padding:0 0 0 0;
 }
 
-.myhead{
-    background-color:white;
-    border:1px solid black;
-    border-radius: 50px 50px 50px 50px;
-    text-align:center;
-    margin:0.5%;
+.main-bar{
+   background-color:white;
+   width:100%;
+   height:50px;
+   margin:0 0 1% 0;
+   font-size:30px;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   align-content: space-between;
+   position:sticky;
+   top:0;
+   z-index:5;    
 }
 
-.storehead{
-    background-color:white;
-    border:1px solid black;
-    border-radius: 50px 50px 50px 50px;
-    text-align:center;
-    margin:1%;
+.fa-store-alt{
+    color:#00aeff;
+    
 }
+.fa-icons{
+    color:#b042ff;
+    
+}
+.fa-user-circle{
+    color:#ff006a;
+    
+}
+
+.main-bar  a .fa-store-alt:hover,.fa-icons:hover,.fa-user-circle:hover{
+  color:grey;  
+}
+
+.subheading{
+    color:#005075;
+    border-bottom:1px solid grey;
+    margin:0% 0% 1% 0%;
+    font-size:3vh;
+    width:90%;
+    padding:0 0 0 2%;
+}
+
+.subheading .fas{
+    color:#002536;
+    font-size:2.5vh;
+    
+}
+
+
+
+
+
+
+
 
 
 .flex {
     display: flex;
-}
-
-.fa-bars{
-    margin:2% 0 3% 2%;
-    font-size:4vw;
-}
-
-.menu{
-    text-decoration:none;
-    color:black;
-    margin:2% 0 1% 2%;
-}
-
-.menu:hover{
-    color:lightblue;
 }
 
 h1{
@@ -65,7 +87,7 @@ h2 {
     margin-left:3%;
     color: black;
     margin:0px;
-    font-family: 'Macondo Swash Caps', cursive;
+    font-family: 'Exo', sans-serif;
 
 }
 
@@ -132,16 +154,7 @@ li{
 
 }
 
-.subheading{
-    color:black;
-    background:linear-gradient(#adccff,whitesmoke);
-    padding:1%;
-    border-bottom:5px double black;
-    border-top:3px double black;
-    text-align:center;
-    margin:5% 0% 3% 0%;
-    box-shadow: 5px 5px 6px black;
-}
+
 
 .text{
     margin:1% 0 1% 3%;
