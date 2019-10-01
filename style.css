@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Exo');
 @import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps');
 @import url('https://fonts.googleapis.com/css?family=Rokkitt');
-@import url('https://fonts.googleapis.com/css?family=Cookie');
 @import url('https://fonts.googleapis.com/css?family=Electrolize');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
 
 
 body {
@@ -49,7 +49,7 @@ body {
 
 .subheading{
     color:#005075;
-    border-bottom:1px solid grey;
+    border-bottom:2px solid grey;
     margin:0% 0% 1% 0%;
     font-size:3vh;
     width:90%;
@@ -62,28 +62,69 @@ body {
     
 }
 
-
-
-
-
-
-
-
-
 .flex {
     display: flex;
 }
 
-h1{
-    flex:5;
-    color:black;
-    font-size:4vw;
-    margin:2% 0 2% 0;
-    font-family: 'Exo', sans-serif;
+.bloc{
+    margin-bottom:5%;
 }
 
+
+/*sale photo and text*/
+.sale{
+    display: flex;
+    padding:2.5%;
+    margin:0;
+    justify-content:flex-start;
+    position:relative;
+}
+
+.pot{
+    width:30%;
+}
+
+.pot img{
+    border-radius:5% 5% 5% 5%;
+    width:50%;
+    height:auto;
+
+}
+
+.detailes{
+    position: relative;
+    width:70%; 
+    padding:0.5% 0 0 1.5%;
+    border-left:1px solid grey;
+    }
+
+/*fini ici*/
+
+.btn{
+    margin: 3% 0 0 0;
+    bottom:0;
+    background:#00aeff;
+    color:aliceblue;
+    position:relative;
+    bottom:0;
+    text-align:center;
+    padding:0.5% 1.5% 0.5% 1.5%;
+    border-radius:5px;
+    width:30%;
+    height:auto;
+    text-align: center;
+    font-size:1.8vh;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.btn:hover{
+   background:grey;
+   color:aliceblue; 
+}
+
+
 h2 {
-    font-size:3vw;
+    font-size:2.5vh;
     margin-left:3%;
     color: black;
     margin:0px;
@@ -93,21 +134,21 @@ h2 {
 
 h3 {
     font-family: 'Rokkitt', serif;
-    font-size:3vw;
-    margin:0;
+    font-size:2.5vh;
+    margin:0px;
     color:black;
     margin:0px;
 }
 
 h4 {
-    font-family: 'Cookie', cursive;
-    font-size:2.4vw;
+    font-family: 'Cormorant Garamond', serif;
+    font-size:2vh;
     margin:0px;
-    color:#0060ff;
+    color:dimgrey;
 }
 
 h5 {
-    font-size:2.5vw;
+    font-size:2.5vh;
     margin:0px;
     font-family: 'Electrolize', sans-serif;
 }
@@ -115,8 +156,8 @@ h5 {
 
 p{  
     font-family: 'Sofia', cursive;
-    font-size:2.8vw;
-    margin:0;
+    font-size:2vh;
+    margin:0px;
     color: black;
 }
 
@@ -125,9 +166,6 @@ a{
 
 }
 
-li{
-    font-size:2;
-}
 
 
 .photo {
@@ -321,10 +359,7 @@ ul,li li,p{
 }
 
 
-.log{
-    height:100%;
-    width:auto;
-}
+
 
 
 .fa-hdd{
@@ -334,82 +369,39 @@ ul,li li,p{
 }
 
 
-.caption{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    flex:3;
-    color:black;
-    font-size:4vw;
-    margin:1.5% 0 1.5% 0;
-}
 
-.sale{
-    display: flex;
-    box-shadow: 10px 10px 15px grey;
-    padding:3%;
-    margin:2%;
-    justify-content:flex-start;
-}
 
-.dj{
-    box-shadow: 10px 10px 15px grey;
-    padding:3%;
-    margin:2%;
-    justify-content:flex-start;
-}
-
-.pot{
-    width:40%;  
-}
-.detailes{
-    position: relative;
-    width:100%; 
-    padding:1% 0 0 3%;
-    text-align:left;
-}
-
-.pot img{
-    position:relative;
-    border-radius:5% 5% 5% 5%;
-    width:100%;
-    height:auto;
-}
-
-.btn{
-    background:linear-gradient(#9efaff,whitesmoke);
-    position: absolute;
-    bottom:0;
-    text-align:center;
-    padding:1% 2% 1% 2%;
-    border-radius:25px;
-    width:50%;
-    height:auto;
-    text-align: center;
-    border:1px solid black;
-}
 
 .btndj{
-    background:linear-gradient(#9efaff,whitesmoke);
+    margin: 0.5% 0 0 0;
+    bottom:0;
+    background:lightblue;
+    color:aliceblue;
+    position:relative;
+    bottom:0;
     text-align:center;
-    padding:1% 2% 1% 2%;
+    padding:0.5% 1.5% 0.5% 1.5%;
     border-radius:5px;
-    width:80%;
+    width:30%;
     height:auto;
     text-align: center;
-    border:1px solid black;
+    font-size:1.8vh;
+    font-family: 'Electrolize', sans-serif;
+}
+
+
+
+/*service page*/
+
+.dj{
+    padding:2%;
     margin:1%;
-}
-
-.line{
-    border-bottom:black solid 2px;
+    justify-content:flex-start;
 }
 
 
-audio{
-    width:90%;
-    border:#42d4f4 solid 2px;
-    border-radius:25px;
-    outline:none;
-}
+
+
 
 
 
