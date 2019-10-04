@@ -150,6 +150,7 @@ h4 {
     font-size: 2vh;
     margin: 0px;
     color: dimgrey;
+    padding: 0.8%;
 }
 
 h5 {
@@ -229,6 +230,8 @@ p {
 
 
 .img-service {
+    -webkit-width: 50%;
+    -webkit-height: auto;
     width: 50%;
     height: auto;
     padding: 0 0 0 2%;
