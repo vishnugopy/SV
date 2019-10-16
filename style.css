@@ -8,8 +8,13 @@
 
 
 body {
+<<<<<<< HEAD
     width: 70%;
     height: auto;
+=======
+    width: auto;
+    height: 70%;
+>>>>>>> 5a90031dac1c7631d9bb43c7d29c60465a770524
     background: white;
     margin: 0 auto;
     display: block;
@@ -69,6 +74,7 @@ body {
 
 .flex {
     display: flex;
+    
 }
 
 .bloc {
