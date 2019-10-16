@@ -8,13 +8,8 @@
 
 
 body {
-<<<<<<< HEAD
     width: 70%;
     height: auto;
-=======
-    width: auto;
-    height: 70%;
->>>>>>> 5a90031dac1c7631d9bb43c7d29c60465a770524
     background: white;
     margin: 0 auto;
     display: block;
@@ -289,7 +284,12 @@ h1 {
   body {
     width: 100%;
     height: auto;
+    
   }
+    
+   section{
+        padding:2%;
+    }
     
     .ad-service {
     display: flex;
@@ -304,9 +304,24 @@ h1 {
 }
 
 .text-service {
-    padding: 0 0 0 2%;
+    padding:1%;
     width: 80%;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
 }
+    
+    
+.text-service .btn{
+    align-items: center;
+    margin:1% auto;
+    text-align: center;
+    width:100%;
+}
+    
+.img-service{
+     margin:1% auto;   
+    }
     
 }
 
