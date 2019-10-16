@@ -8,10 +8,10 @@
 
 
 body {
-    width: auto;
-    height: 100%;
+    width: 70%;
+    height: auto;
     background: white;
-    margin: 0px;
+    margin: 0 auto;
     display: block;
     padding: 0 0 0 0;
 }
@@ -225,6 +225,7 @@ p {
 
 .ad-service {
     display: flex;
+
 }
 
 
@@ -276,6 +277,35 @@ h1 {
             rgba(0, 0, 0, 0.8) 13px,
             transparent 13px);
 }
+
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+    
+    .ad-service {
+    display: flex;
+    flex-wrap: wrap;
+}
+    .img-service {
+    -webkit-width: 80%;
+    -webkit-height: auto;
+    width: 80%;
+    height: auto;
+    padding: 0 0 0 2%;
+}
+
+.text-service {
+    padding: 0 0 0 2%;
+    width: 80%;
+}
+    
+}
+
+
+
 
 @-webkit-keyframes blink {
 
