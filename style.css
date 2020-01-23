@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Sofia');
-@import url('https://fonts.googleapis.com/css?family=Exo');
-@import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps');
-@import url('https://fonts.googleapis.com/css?family=Rokkitt');
-@import url('https://fonts.googleapis.com/css?family=Electrolize');
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
 
 body {
     width: 70%;
@@ -14,6 +7,18 @@ body {
     margin: 0 auto;
     display: block;
     padding: 0 0 0 0;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    padding: 3%;
+    font-size: calc(10px + 5vh);
+    line-height: calc(10px + 5vh);
+    text-shadow: 0 0 5px #00d0ff, 0 0 15px #00d0ff, 0 0 20px #00d0ff, 0 0 40px #00d0ff, 0 0 60px #00d0ff, 0 0 10px #00d0ff, 0 0 98px #00d0ff;
+    color: #a7fcfa;
+    text-align: center;
+    animation: blink 3s infinite;
 }
 
 .main-bar {
@@ -60,7 +65,7 @@ body {
     padding: 0 0 0 2%;
 }
 
-.subheading .fas {
+.subheading .fas , .fab{
     color: #002536;
     font-size: 2.5vh;
 
@@ -119,7 +124,6 @@ body {
     height: auto;
     text-align: center;
     font-size: 1.8vh;
-    font-family: 'Electrolize', sans-serif;
 }
 
 .btn:hover {
@@ -133,12 +137,12 @@ h2 {
     margin-left: 3%;
     color: black;
     margin: 0px;
-    font-family: 'Exo', sans-serif;
+
 
 }
 
 h3 {
-    font-family: 'Rokkitt', serif;
+
     font-size: 2.5vh;
     margin: 0px;
     color: black;
@@ -146,7 +150,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Cormorant Garamond', serif;
+
     font-size: 2vh;
     margin: 0px;
     color: dimgrey;
@@ -156,12 +160,11 @@ h4 {
 h5 {
     font-size: 2.5vh;
     margin: 0px;
-    font-family: 'Electrolize', sans-serif;
+  
 }
 
 
 p {
-    font-family: 'Sofia', cursive;
     font-size: 2vh;
     margin: 0px;
     color: black;
@@ -254,16 +257,7 @@ p {
 /*animated h1*/
 
 
-h1 {
-    padding: 3%;
-    font-size: calc(10px + 5vh);
-    line-height: calc(10px + 5vh);
-    text-shadow: 0 0 5px #00d0ff, 0 0 15px #00d0ff, 0 0 20px #00d0ff, 0 0 40px #00d0ff, 0 0 60px #00d0ff, 0 0 10px #00d0ff, 0 0 98px #00d0ff;
-    color: #a7fcfa;
-    font-family: 'Turret Road', cursive;
-    text-align: center;
-    animation: blink 3s infinite;
-}
+
 
 .namesection {
     padding: 3%;
@@ -371,7 +365,7 @@ footer{
         color: #ccc;   
     }
 
-    .subheading .fas {
+    .subheading .fas,.fab{
         color:white;
         
     
@@ -386,7 +380,7 @@ footer{
     }
 
     h3{
-        color:#00aeff;
+        color:white;
     }
 
     .main-bar {
@@ -411,6 +405,11 @@ footer{
         background: black;
     }
 
+    .fa-store-alt , .fa-icons , .fa-user-circle {
+        opacity: 0.6;
+        
+    
+    }
     
   }
 
