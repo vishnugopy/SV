@@ -255,8 +255,9 @@ p {
 
 
 h1 {
-    font-size: calc(20px + 5vh);
-    line-height: calc(20px + 5vh);
+    padding: 3%;
+    font-size: calc(10px + 5vh);
+    line-height: calc(10px + 5vh);
     text-shadow: 0 0 5px #00d0ff, 0 0 15px #00d0ff, 0 0 20px #00d0ff, 0 0 40px #00d0ff, 0 0 60px #00d0ff, 0 0 10px #00d0ff, 0 0 98px #00d0ff;
     color: #a7fcfa;
     font-family: 'Turret Road', cursive;
@@ -265,6 +266,7 @@ h1 {
 }
 
 .namesection {
+    padding: 3%;
     margin-bottom: 2%;
     display: flex;
     justify-content: center;
@@ -333,8 +335,6 @@ footer{
 }
 
 
-
-
 @-webkit-keyframes blink {
 
     20%,
@@ -356,3 +356,62 @@ footer{
         color: white;
     }
 }
+
+
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: #ccc;
+    }
+
+    header{
+        background-color: black;
+        color: #ccc;   
+    }
+
+    .subheading .fas {
+        color:white;
+        
+    
+    }
+
+    p,h2,h4,h5,h6{
+        color: white;
+    }
+
+    h4{
+        color: #adadad;
+    }
+
+    h3{
+        color:#00aeff;
+    }
+
+    .main-bar {
+        background-color:black;
+        
+    }
+
+    .social a {
+        color:white;
+        font-size: 40px;
+    }
+
+    .subheading{
+        color: #00aeff;
+    }
+
+    .btn{
+        color: black;
+    }
+
+    footer{
+        background: black;
+    }
+
+    
+  }
+
+
