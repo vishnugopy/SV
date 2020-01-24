@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body {
     width: 70%;
@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     display: block;
     padding: 0 0 0 0;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 100;
 }
 
@@ -65,11 +65,21 @@ h1 {
     padding: 0 0 0 2%;
 }
 
-.subheading .fas , .fab{
+.bloc .fas , .bloc .fab ,.bloc .far{
     color: #002536;
-    font-size: 2.5vh;
+    font-size: 3vh;
+    padding-right: 1%;
 
 }
+
+.subheading .fas , .fab , .fa{
+    color: #002536;
+    font-size: 2.5vh;
+    padding-right: 1%;
+
+}
+
+
 
 .flex {
     display: flex;
@@ -365,12 +375,6 @@ footer{
         color: #ccc;   
     }
 
-    .subheading .fas,.fab{
-        color:white;
-        
-    
-    }
-
     p,h2,h4,h5,h6{
         color: white;
     }
@@ -398,7 +402,7 @@ footer{
     }
 
     .btn{
-        color: black;
+        color:white;
     }
 
     footer{
@@ -408,6 +412,17 @@ footer{
     .fa-store-alt , .fa-icons , .fa-user-circle {
         opacity: 0.6;
         
+    
+    }
+
+    .bloc .fas , .bloc .fab ,.bloc .far{
+        color: white;
+
+    
+    }
+
+    .subheading .fas , .fab , .fa{
+        color: white;
     
     }
     
