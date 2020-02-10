@@ -21,6 +21,10 @@ h1 {
     animation: blink 3s infinite;
 }
 
+.logo{
+    width: 25%;
+    height: auto;  
+}
 .main-bar {
     background-color:white;
     width: 100%;
