@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 
+
+::selection {
+    background-color: cyan;
+    color:white;
+  }
+
+
+
 body {
     width: 70%;
     height: auto;
@@ -56,7 +64,7 @@ h1 {
     top: 0;
     z-index: 5;
 }
-.fa-store-alt {
+.fa-home {
     color: #00aeff;
 
 }
@@ -71,10 +79,10 @@ h1 {
 
 }
 
-.main-bar a .fa-store-alt:hover,
+.main-bar a .fa-home:hover,
 .fa-icons:hover,
 .fa-user-circle:hover {
-    color: grey;
+    color: #002357;
 }
 
 .subheading {
@@ -149,7 +157,7 @@ h1 {
 }
 
 .btn:hover {
-    background: grey;
+    background: #002357;
     color: aliceblue;
 }
 
@@ -421,12 +429,6 @@ footer{
         background: black;
     }
 
-    .fa-store-alt , .fa-icons , .fa-user-circle {
-        opacity: 0.8;
-        
-    
-    }
-
     .bloc .fas , .bloc .fab ,.bloc .far{
         color: white;
 
@@ -437,6 +439,12 @@ footer{
         color: white;
     
     }
+
+    .main-bar a .fa-home:hover,
+.fa-icons:hover,
+.fa-user-circle:hover {
+    color: #ffffff;
+}
     
   }
 
