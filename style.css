@@ -25,7 +25,22 @@ h1 {
 
 .logo{
     width: 25%;
-    height: auto;  
+    height: auto;
+}
+
+
+.pot {
+    width: 30%;
+    margin: 0 auto 0 0 ;
+}
+
+.pot img {
+    border-radius: 5% 5% 5% 5%;
+    width: 80%;
+    height: auto;
+    margin: 0 10% 0 0 ;
+    float: right;
+
 }
 .main-bar {
     background-color:white;
@@ -106,16 +121,7 @@ h1 {
     position: relative;
 }
 
-.pot {
-    width: 30%;
-}
 
-.pot img {
-    border-radius: 5% 5% 5% 5%;
-    width: 50%;
-    height: auto;
-
-}
 
 .detailes {
     position: relative;
