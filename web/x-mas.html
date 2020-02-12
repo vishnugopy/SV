@@ -64,9 +64,8 @@ $(document).ready(function(){
 });
 </script>
 
-
 <style>
- @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body{
 text-align: center;
@@ -100,19 +99,32 @@ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 
 h1{
 font-size:4.5vh;
-color:#00b0fc;
+color:#000e35;
 text-shadow:white 3px 2px 1px;
-}
-h2{
-font-size:6vh;
-color: white;
-margin: 0.5%;
+
 }
 
-h3{
-font-size:3vh;
-color: blue;
+h2{
+font-size:6vh;
+font-weight: 900;
+color: white;
 margin: 0.5%;
+-webkit-animation: h2 0.35s infinite; 
+  animation: h2 0.35s infinite;
+}
+
+@-webkit-keyframes h2 {
+    0%   {text-shadow: 0 0 6px #FFF;}
+    100%  {text-shadow: 0 0 0px #000;}
+}
+
+
+h3{
+font-weight: 900;
+font-size:3vh;
+color: #11004d;
+margin: 0.5%;
+text-shadow: 5px 1px 6px #FFF;
   
 }
 
@@ -124,6 +136,7 @@ margin: 0.5%;
 
 .pop-up h3{
   color: #ffffff;
+  text-shadow: none;
 }
 
 
@@ -191,6 +204,7 @@ button{
     width: 80%;
   }
 }
-</style>
+    </style>
+
   </body>
 </html>
