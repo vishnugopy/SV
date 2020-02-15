@@ -260,7 +260,7 @@ a {
 
 
 footer {
-    margin-top: 5%;
+    margin: 5% 0 20% 0;
     background: white;
     height: 2%;
     padding: 2%;
@@ -270,6 +270,7 @@ footer {
 footer a {
     color: cornflowerblue;
     text-decoration: none;
+    margin-bottom:10%;
 
 }
 
