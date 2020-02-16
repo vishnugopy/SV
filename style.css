@@ -46,7 +46,7 @@ h1 {
     padding: 3%;
     font-size: calc(10px + 5vh);
     line-height: calc(10px + 5vh);
-    text-shadow: 0 0 5px #00d0ff, 0 0 15px #00d0ff, 0 0 20px #00d0ff, 0 0 40px #00d0ff, 0 0 60px #00d0ff, 0 0 10px #00d0ff, 0 0 98px #00d0ff;
+    text-shadow: 0 0 2px #00d0ff, 0 0 5px #00d0ff, 0 0 10px #00d0ff, 0 0 20px #00d0ff, 0 0 30px #00d0ff, 0 0 5px #00d0ff, 0 0 49px #00d0ff;
     color: #a7fcfa;
     font-family: 'Odibee Sans', cursive;
     text-align: center;
@@ -54,8 +54,9 @@ h1 {
 }
 
 .logo{
-    width: 25%;
+    width: 17vh;
     height: auto;
+    margin: 0.5%;
 }
 
 
@@ -400,7 +401,7 @@ footer{
     54%,
     56%,
     100% {
-        text-shadow: 0 0 5px #00d0ff, 0 0 15px #00d0ff, 0 0 20px #00d0ff, 0 0 40px #00d0ff, 0 0 60px #00d0ff, 0 0 10px #00d0ff, 0 0 98px #00d0ff;
+        text-shadow: 0 0 2px  #00d0ff, 0 0 5px  #001866, 0 0 10px #00d0ff, 0 0 20px  #001866, 0 0 30px #00d0ff, 0 0 5px  #001866, 0 0 49px #00d0ff;
         color: white;
     }
 }
