@@ -142,7 +142,11 @@ h1 {
 }
 
 .bloc {
+    padding:2%;
     margin-bottom: 5%;
+    animation: slide 0.3s;
+    animation-timing-function: linear;
+    
 }
 
 
@@ -153,6 +157,15 @@ h1 {
     margin: 0;
     justify-content: flex-start;
     position: relative;
+    animation: slide 0.4s;
+    animation-timing-function: linear;
+}
+
+.ad-service {
+    display: flex;
+    animation: slide 0.4s;
+    animation-timing-function: linear;
+
 }
 
 
@@ -162,6 +175,8 @@ h1 {
     width: 70%;
     padding: 0.5% 0 0 1.5%;
     border-left: 1px solid grey;
+    animation: slide 0.8s;
+    animation-timing-function: linear;
 }
 
 /*fini ici*/
@@ -288,11 +303,6 @@ p {
 }
 
 
-.ad-service {
-    display: flex;
-
-}
-
 
 
 .img-service {
@@ -417,6 +427,11 @@ footer{
     }
 }
 
+
+@-webkit-keyframes slide {
+    0%   { opacity: 0;margin-left:50%;transform: rotate(-1.5deg)}
+    100% { opacity: 1;margin-left:0%;transform: rotate(0)  }
+  }
 
 
 
