@@ -428,7 +428,7 @@ footer{
 }
 
 
-@-webkit-keyframes slide {
+@keyframes slide {
     0%   { opacity: 0;margin-left:50%;transform: rotate(-1.5deg)}
     100% { opacity: 1;margin-left:0%;transform: rotate(0)  }
   }
