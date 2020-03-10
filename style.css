@@ -55,10 +55,9 @@ h1 {
     animation: blink 3s infinite;
 }
 
-.logo{
-    width: 17vh;
+.vbg{
+    width: 96%;
     height: auto;
-    margin: 0.5%;
 }
 
 
