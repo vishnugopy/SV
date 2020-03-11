@@ -15,7 +15,7 @@
   .main-bar {
     opacity:1;
     width: auto;
-    height: 8%;
+    height: 7%;
     margin:1% 1%;
     font-size: 4vh;
     display: flex;
@@ -28,7 +28,7 @@
     left: 0;
     bottom: 0;
     z-index: 5;
-    border:whitesmoke solid 2px;
+    border:black solid 2px;
     border-radius: 15px;
     }
 
