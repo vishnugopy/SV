@@ -1,0 +1,68 @@
+
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: #ccc;
+    }
+
+    header{
+        background-color: black;
+        color: #ccc;   
+    }
+
+    p,h2,h4,h5,h6{
+        color: white;
+    }
+
+    h4{
+        color: #adadad;
+    }
+
+    h3{
+        color:white;
+    }
+
+    .main-bar {
+        background-color:black;
+        
+    }
+
+    .social a {
+        color:white;
+        font-size: 40px;
+    }
+
+    .subheading{
+        color: #00aeff;
+    }
+
+    .btn{
+        color:white;
+    }
+
+    footer{
+        background: black;
+    }
+
+    .bloc .fas , .bloc .fab ,.bloc .far{
+        color: white;
+
+    
+    }
+
+    .subheading .fas , .fab , .fa{
+        color: white;
+    
+    }
+
+    .main-bar a .fa-home:hover,
+.fa-icons:hover,
+.fa-user-circle:hover {
+    color: #ffffff;
+}
+    
+  }
+
+

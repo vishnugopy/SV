@@ -75,23 +75,21 @@ h1 {
 
 }
 .main-bar {
-    opacity:0.6;
+    opacity:1;
     background-color:white;
-    width: 5%;
-    height: 40%;
-    margin: 2%;
+    width: 70%;
+    height: 7%;
+    margin:0 auto;
     font-size: 4vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     align-content: space-between;
-    position: fixed;
+    position:fixed;
+    left: 0;
     right: 0;
-    bottom: 0;
     z-index: 5;
-    border: paleturquoise solid 5px;
-    border-radius: 25px;
 }
 .fa-home {
     color: #00aeff;
@@ -351,79 +349,6 @@ p {
 }
 
 
-@media screen and (max-width: 620px) {
-  body {
-    width: 100%;
-    height: auto;
-    position: relative;
-    
-  }    
- 
-
-  .main-bar {
-    opacity:0.8;
-    background-color:white;
-    width: 11%;
-    height: 30%;
-    margin: 1%;
-    font-size: 4vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-between;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: 5;
-    border: paleturquoise solid 2px;
-    border-radius: 25px;
-}
-
-footer{
-  margin:0 0 30% 0;      
-    }
-    
-   section{
-        padding:2%;
-    }
-    
-    .ad-service {
-    display: flex;
-    flex-wrap: wrap;
-}
-    .img-service {
-    -webkit-width: 80%;
-    -webkit-height: auto;
-    width: 80%;
-    height: auto;
-    padding: 0 0 0 2%;
-}
-
-.text-service {
-    padding:1%;
-    width: 80%;
-    align-items: center;
-    margin:0 auto;
-    text-align: center;
-}
-    
-    
-.text-service .btn{
-    align-items: center;
-    margin:1% auto;
-    text-align: center;
-    width:100%;
-}
-    
-.img-service{
-     margin:1% auto;   
-    }
-    
-
-
-}
-
 @keyframes blink {
 
     20%,
@@ -451,71 +376,4 @@ footer{
     0%   { opacity: 0;margin-left:50%;transform: rotate(-1.5deg)}
     100% { opacity: 1;margin-left:0%;transform: rotate(0)  }
   }
-
-
-
-@media (prefers-color-scheme: dark) {
-    body {
-      background-color: black;
-      color: #ccc;
-    }
-
-    header{
-        background-color: black;
-        color: #ccc;   
-    }
-
-    p,h2,h4,h5,h6{
-        color: white;
-    }
-
-    h4{
-        color: #adadad;
-    }
-
-    h3{
-        color:white;
-    }
-
-    .main-bar {
-        background-color:black;
-        
-    }
-
-    .social a {
-        color:white;
-        font-size: 40px;
-    }
-
-    .subheading{
-        color: #00aeff;
-    }
-
-    .btn{
-        color:white;
-    }
-
-    footer{
-        background: black;
-    }
-
-    .bloc .fas , .bloc .fab ,.bloc .far{
-        color: white;
-
-    
-    }
-
-    .subheading .fas , .fab , .fa{
-        color: white;
-    
-    }
-
-    .main-bar a .fa-home:hover,
-.fa-icons:hover,
-.fa-user-circle:hover {
-    color: #ffffff;
-}
-    
-  }
-
 

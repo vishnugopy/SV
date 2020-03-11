@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
+
+@media screen and (max-width: 620px) {
+  body {
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+  }    
+ 
+
+  .main-bar {
+    opacity:1;
+    width: auto;
+    height: 8%;
+    margin:1% 1%;
+    font-size: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    border:whitesmoke solid 2px;
+    border-radius: 15px;
+    }
+
+    footer{
+    margin:0 0 30% 0;      
+    }
+    
+   section{
+        padding:2%;
+    }
+    
+    .ad-service {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .img-service {
+    -webkit-width: 80%;
+    -webkit-height: auto;
+    width: 80%;
+    height: auto;
+    padding: 0 0 0 2%;
+    }
+
+.text-service {
+    padding:1%;
+    width: 80%;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
+}
+    
+    
+.text-service .btn{
+    align-items: center;
+    margin:1% auto;
+    text-align: center;
+    width:100%;
+}
+    
+.img-service{
+     margin:1% auto;   
+    }
+    
+
+
+}
