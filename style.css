@@ -318,6 +318,7 @@ p {
 .wallpapersection{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom:30%;
 }
 
 .wpbloc{
