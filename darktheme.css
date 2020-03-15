@@ -59,10 +59,24 @@
 
     .main-bar a .fa-home:hover,
 .fa-icons:hover,
-.fa-user-circle:hover {
-    color: #ffffff;
+.fa-user-circle:hover, 
+.fa-mobile:hover{
+    color:#00aeff;
+    outline: none;
 }
+
+.fa-home ,.fa-icons , .fa-user-circle , .fa-mobile{
     
+    color: white;
+
+}
+
+.wpbloc{
+    border: whitesmoke solid 2px;
+} 
+
+
+
   }
 
 

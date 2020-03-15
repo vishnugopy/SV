@@ -106,18 +106,10 @@ h1 {
     right: 0;
     z-index: 5;
 }
-.fa-home {
-    color: #00aeff;
 
-}
 
-.fa-icons {
-    color: #b042ff;
-
-}
-
-.fa-user-circle {
-    color: #ff006a;
+.fa-home , .fa-icons , .fa-user-circle , .fa-mobile{
+    color: black;
 
 }
 
@@ -125,8 +117,9 @@ h1 {
 .main-bar a 
 .fa-home:hover,
 .fa-icons:hover,
-.fa-user-circle:hover {
-    color: #002357;
+.fa-user-circle:hover,
+.fa-mobile:hover{
+    color: #00aeff;
 }
 
 .subheading {
@@ -321,8 +314,32 @@ p {
     margin: 0;
 }
 
+/*wallpaper*/
+.wallpapersection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wpbloc{
+    width:30%;
+    padding: 0.5%;
+    margin:0.5%;
+    border: black solid 2px;
+    border-radius:5px;
+}
+
+.wpbloc img{
+    width:100%;
+    height:auto;
+}
 
 
+/*service page*/
+.dj {
+    padding: 2%;
+    margin: 1%;
+    justify-content: flex-start;
+}
 
 .img-service {
     -webkit-width: 50%;
@@ -337,19 +354,26 @@ p {
     width: 50%;
 }
 
-/*service page*/
 
-.dj {
-    padding: 2%;
-    margin: 1%;
-    justify-content: flex-start;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*animated h1*/
-
-
-
-
 @keyframes blink {
 
     20%,
