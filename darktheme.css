@@ -58,14 +58,14 @@
     }
 
     .main-bar a .fa-home:hover,
-.fa-icons:hover,
+.fa-play-circle:hover,
 .fa-user-circle:hover, 
 .fa-mobile:hover{
     color:#00aeff;
     outline: none;
 }
 
-.fa-home ,.fa-icons , .fa-user-circle , .fa-mobile{
+.fa-home ,.fa-play-circle , .fa-user-circle , .fa-mobile{
     
     color: white;
 

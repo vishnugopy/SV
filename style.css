@@ -58,7 +58,11 @@ h1 {
     height: auto;
 }
 
+.pharagraphe{
+    margin:1%;
+    align-items: center;
 
+}
 
 .namesection {
     padding: 10%;
@@ -108,7 +112,7 @@ h1 {
 }
 
 
-.fa-home , .fa-icons , .fa-user-circle , .fa-mobile{
+.fa-home , .fa-play-circle , .fa-user-circle , .fa-mobile{
     color: black;
 
 }
@@ -116,7 +120,7 @@ h1 {
 
 .main-bar a 
 .fa-home:hover,
-.fa-icons:hover,
+.fa-play-circle:hover,
 .fa-user-circle:hover,
 .fa-mobile:hover{
     color: #00aeff;
