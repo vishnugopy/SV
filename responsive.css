@@ -44,17 +44,16 @@
     display: flex;
     flex-wrap: wrap;
     }
+
+
     .img-service {
-    -webkit-width: 80%;
-    -webkit-height: auto;
-    width: 80%;
+    width: 95%;
     height: auto;
-    padding: 0 0 0 2%;
+    margin:0.5%;
     }
 
-.text-service {
-    padding:1%;
-    width: 80%;
+    .text-service {
+    width: 95%;
     align-items: center;
     margin:0 auto;
     text-align: center;
@@ -65,7 +64,7 @@
     align-items: center;
     margin:1% auto;
     text-align: center;
-    width:100%;
+    width:95%;
 }
     
 .img-service{
