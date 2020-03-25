@@ -370,9 +370,30 @@ p {
     width: 50%;
 }
 
+.djthings{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:20%;  
+}
 
+.djthings img{
+    width:30%;
+    padding: 0.5%;
+    margin:0.5%;
+    border: black solid 2px;
+    border-radius:5px;
+}
 
+.djlogo{
+    width:20%;
+    margin:0 auto;
+}
 
+.flexdj{
+    display: flex;
+    flex-direction: column;
+
+}
 
 
 
