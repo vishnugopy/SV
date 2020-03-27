@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 1024px) {
   body {
     width: 100%;
     height: auto;
