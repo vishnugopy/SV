@@ -119,19 +119,23 @@ h1 {
 }
 
 
-.fa-home , .fa-play-circle , .fa-user-circle , .fa-mobile{
+.tapbut{
     color: black;
 
 }
 
 
-.main-bar a 
-.fa-home:hover,
-.fa-play-circle:hover,
-.fa-user-circle:hover,
-.fa-mobile:hover{
+.tapbut:hover{
     color: #00aeff;
 }
+
+.socialicon{
+    color: #002357;
+    font-size: 3vh;
+    margin:0;
+
+}
+
 
 .subheading {
     color: #005075;
@@ -142,19 +146,6 @@ h1 {
     padding: 0 0 0 2%;
 }
 
-.bloc .fas , .bloc .fab ,.bloc .far{
-    color: #002357;
-    font-size: 3vh;
-    padding-right: 1%;
-
-}
-
-.subheading .fas , .fab , .fa{
-    color: #002536;
-    font-size: 2.5vh;
-    padding-right: 1%;
-
-}
 
 
 
@@ -276,7 +267,9 @@ a {
 
 .social {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    text-align: center;
 
 
 
@@ -285,20 +278,16 @@ a {
 
 .social a {
     color: #00aeff;
-    font-size: 40px;
+    font-size: 4vh;
+    width:98%;
+    border: #00aeff solid 2px;
+    margin: 1%;
+    align-content: center;
+    justify-content: center;
+    border-radius:5px;
 }
 
 
-
-
-.mail:hover,
-.twitter:hover,
-.insta:hover,
-.snap:hover,
-.youtube:hover,
-.git:hover {
-    color: aqua;
-}
 
 video{
     width:95%;
@@ -310,7 +299,7 @@ video{
 footer {
     margin: 5% 0 20% 0;
     background: white;
-    height: 2%;
+    height: 10%;
     padding: 2%;
     text-align: center;
 }
@@ -389,21 +378,11 @@ p {
     margin:0 auto;
 }
 
-.flexdj{
+.flex{
     display: flex;
     flex-direction: column;
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -439,3 +418,7 @@ p {
     100% { opacity: 1;margin-left:0%;transform: rotate(0)  }
   }
 
+p{
+    text-align: center;
+    color:white;
+}

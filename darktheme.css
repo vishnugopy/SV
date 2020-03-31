@@ -4,14 +4,26 @@
 @media (prefers-color-scheme: dark) {
     body {
       background-color: black;
+      background-image: repeating-linear-gradient(to bottom right,
+            transparent 7px,
+            rgba(255, 255, 255, 0.8) 0.5px,
+            rgb(0, 15, 26) 1px,
+            transparent 10px);
       color: #ccc;
     }
 
-    header{
+    .main-bar {
         background-color: black;
-        color: #ccc;   
+        background-image: repeating-linear-gradient(to bottom right,
+              transparent 7px,
+              rgba(255, 255, 255, 0.8) 0.1px,
+              rgb(0, 15, 26) 0.5px,
+              transparent 11px);
+        background-size: 20%;
+        
     }
 
+   
     p,h2,h4,h5,h6{
         color: white;
     }
@@ -24,10 +36,6 @@
         color:white;
     }
 
-    .main-bar {
-        background-color:black;
-        
-    }
 
     .social a {
         color:white;
@@ -57,27 +65,38 @@
     
     }
 
-    .main-bar a .fa-home:hover,
-.fa-play-circle:hover,
-.fa-user-circle:hover, 
-.fa-mobile:hover{
-    color:#00aeff;
-    outline: none;
-}
 
-.fa-home ,.fa-play-circle , .fa-user-circle , .fa-mobile{
+    .tapbut{
+        color: white;
     
-    color: white;
+    }
+    
+    
+    .tapbut:hover{
+        color: #00aeff;
+    }
+    
+    .socialicon{
+        color: white;
+    
+    }
 
-}
-
-.wpbloc{
+    .socialicon:hover{
+        color: #00aeff;
+    
+    }
+    
+    .wpbloc{
     border: whitesmoke solid 2px;
-} 
+    } 
 
-.djthings img{
+    .djthings img{
     border: whitesmoke solid 2px;
-}
+    }
+
+    footer{
+        background: none;
+    }
 
   }
 
