@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 1024px) {
   body {
-    width: 94%;
+    width: 100%;
   }
 
 
@@ -31,6 +31,7 @@
     align-items: center;
     align-content: space-between;
     position: fixed;
+    border: none;
     right: 0;
     left: 0;
     bottom: 0;
