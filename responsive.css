@@ -1,22 +1,29 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 
 
 @media screen and (max-width: 1024px) {
   body {
-    width: 100%;
+    width: 94%;
+  }
+
+
+  .coversection {
+    margin: 0 auto;
+    width: 96%;
     height: auto;
-    position: relative;
-    
-  }    
- 
+
+  }
+
+  .vbg {
+    width: 100%;
+  }
 
   .main-bar {
-    opacity:1;
+    opacity: 1;
     width: auto;
     height: 7%;
-    margin:0 auto;
+    margin: 0 auto;
     font-size: 4vh;
     display: flex;
     flex-direction: row;
@@ -28,66 +35,61 @@
     left: 0;
     bottom: 0;
     z-index: 5;
-    border-top: whitesmoke solid 2px;
     border-radius: 2px;
-    }
+  }
 
-    footer{
-    margin:0 0 30% 0;      
-    }
-    
-   section{
-        padding:2%;
-    }
-    
-    .ad-service {
+  footer {
+    margin: 0 0 30% 0;
+  }
+
+  section {
+    padding: 0.5%;
+  }
+
+  .ad-service {
     display: flex;
     flex-wrap: wrap;
-    }
+  }
 
 
-    .img-service {
+  .img-service {
     width: 95%;
     height: auto;
-    margin:0.5%;
-    }
+    margin: 0.5%;
+  }
 
-    .text-service {
+  .text-service {
     width: 95%;
     align-items: center;
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
-}
-    
-    
-.text-service .btn{
+  }
+
+
+  .text-service .btn {
     align-items: center;
-    margin:1% auto;
+    margin: 1% auto;
     text-align: center;
-    width:95%;
+    width: 95%;
+  }
+
+  .img-service {
+    margin: 1% auto;
+  }
+
+  /*wallpaper*/
+  .wpbloc {
+    width: 46%;
+
+  }
+
+
+  .djthings img {
+    margin: 1% 1%;
+    width: 44%;
+    padding: 1%;
+    align-items: center;
+  }
+
+
 }
-    
-.img-service{
-     margin:1% auto;   
-    }
-    
-/*wallpaper*/
-.wpbloc{
-  width:46%;
-
-}
-
-
-.djthings img{
-  margin:1% 1%;
-  width:44%;
-  padding:1%;
-  align-items: center;
-}
-
-
-}
-
-
-
-

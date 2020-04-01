@@ -1,103 +1,106 @@
-
-
-
 @media (prefers-color-scheme: dark) {
     body {
-      background-color: black;
-      background-image: repeating-linear-gradient(to bottom right,
-            transparent 7px,
-            rgba(255, 255, 255, 0.8) 0.5px,
-            rgb(0, 15, 26) 1px,
-            transparent 10px);
-      color: #ccc;
+        background-color: black;
+        background-image: repeating-linear-gradient(to bottom right,
+                transparent 7px,
+                rgba(255, 255, 255, 0.8) 0.5px,
+                rgb(0, 15, 26) 1px,
+                transparent 10px);
+        color: #ccc;
     }
 
     .main-bar {
         background-color: black;
         background-image: repeating-linear-gradient(to bottom right,
-              transparent 7px,
-              rgba(255, 255, 255, 0.8) 0.1px,
-              rgb(0, 15, 26) 0.5px,
-              transparent 11px);
+                transparent 7px,
+                rgba(255, 255, 255, 0.8) 0.1px,
+                rgb(0, 15, 26) 0.5px,
+                transparent 11px);
         background-size: 20%;
-        
+
     }
 
-   
-    p,h2,h4,h5,h6{
+
+    p,
+    h2,
+    h4,
+    h5,
+    h6 {
         color: white;
     }
 
-    h4{
+    h4 {
         color: #adadad;
     }
 
-    h3{
-        color:white;
+    h3 {
+        color: white;
     }
 
 
     .social a {
-        color:white;
+        color: white;
         font-size: 40px;
     }
 
-    .subheading{
+    .subheading {
         color: #00aeff;
     }
 
-    .btn{
-        color:white;
+    .btn {
+        color: white;
     }
 
-    footer{
+    footer {
         background: black;
     }
 
-    .bloc .fas , .bloc .fab ,.bloc .far{
+    .bloc .fas,
+    .bloc .fab,
+    .bloc .far {
         color: white;
 
-    
+
     }
 
-    .subheading .fas , .fab , .fa{
+    .subheading .fas,
+    .fab,
+    .fa {
         color: white;
-    
+
     }
 
 
-    .tapbut{
+    .tapbut {
         color: white;
-    
+
     }
-    
-    
-    .tapbut:hover{
+
+
+    .tapbut:hover {
         color: #00aeff;
     }
-    
-    .socialicon{
+
+    .socialicon {
         color: white;
-    
+
     }
 
-    .socialicon:hover{
+    .socialicon:hover {
         color: #00aeff;
-    
-    }
-    
-    .wpbloc{
-    border: whitesmoke solid 2px;
-    } 
 
-    .djthings img{
-    border: whitesmoke solid 2px;
     }
 
-    footer{
+    .wpbloc {
+        border: whitesmoke solid 2px;
+    }
+
+    .djthings img {
+        border: whitesmoke solid 2px;
+    }
+
+    footer {
         background: none;
     }
 
-  }
-
-
+}

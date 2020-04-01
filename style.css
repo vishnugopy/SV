@@ -1,65 +1,95 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 
+* {
+    margin: 0 auto;
+}
 
 ::selection {
     background-color: cyan;
-    color:white;
-  }
+    color: white;
+}
 
-  /* width */
+/* width */
 ::-webkit-scrollbar {
     width: 1%;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px rgb(0, 0, 0); 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #002357;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #00aeff ; 
-  }
+}
 
-html{
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #002357;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00aeff;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
 body {
-    width: 70%;
-    height: auto;
     background: white;
-    margin: 0 auto;
-    display: block;
-    padding: 0 0 0 0;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 100;
 }
 
+.coversection {
+    width: 70%;
+    margin: auto;
+    vertical-align: middle;
+
+}
+
+.productcover {
+    border: whitesmoke solid 0.5px;
+    margin: 1% auto;
+    border-radius: 5px;
+}
+
+.main-bar {
+    opacity: 1;
+    background-color: white;
+    width: 80%;
+    height: 7%;
+    margin: 0.3% auto;
+    font-size: 4vh;
+    display: flex;
+    border: whitesmoke solid 2px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+
 
 h1 {
     padding: 3%;
-    font-size:7vh;
+    font-size: 7vh;
     line-height: 7vh;
     font-family: 'Odibee Sans', cursive;
     text-align: center;
     animation: blink 5s infinite;
 }
 
-.vbg{
-    width: 96%;
+.vbg {
+    width: 100%;
     height: auto;
 }
 
-.pharagraphe{
-    margin:1%;
+.pharagraphe {
+    margin: 1%;
     align-items: center;
 
 }
@@ -80,59 +110,41 @@ h1 {
 }
 
 
-.getonplay{
-    width:30%;
-    height:auto;
-    margin:1%;
+.getonplay {
+    width: 30%;
+    height: auto;
+    margin: 1%;
 }
 
 
 .pot {
     width: 30%;
-    margin: 0 auto 0 0 ;
+    margin: 0 auto 0 0;
 }
 
 .pot img {
     border-radius: 5% 5% 5% 5%;
     width: 80%;
     height: auto;
-    margin: 0 10% 0 0 ;
+    margin: 0 10% 0 0;
     float: right;
 
 }
-.main-bar {
-    opacity:1;
-    background-color:white;
-    width: 70%;
-    height: 7%;
-    margin:0 auto;
-    font-size: 4vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-between;
-    position:fixed;
-    left: 0;
-    right: 0;
-    z-index: 5;
-}
 
-
-.tapbut{
+.tapbut {
     color: black;
 
 }
 
 
-.tapbut:hover{
+.tapbut:hover {
     color: #00aeff;
 }
 
-.socialicon{
+.socialicon {
     color: #002357;
     font-size: 3vh;
-    margin:0;
+    margin: 0;
 
 }
 
@@ -142,7 +154,7 @@ h1 {
     border-bottom: 2px solid grey;
     margin: 0% 0% 1% 0%;
     font-size: 3vh;
-    width: 90%;
+    width: 98%;
     padding: 0 0 0 2%;
 }
 
@@ -151,15 +163,16 @@ h1 {
 
 .flex {
     display: flex;
-    
+
 }
 
 .bloc {
-    padding:2%;
+    width: 100%;
+    padding: 0.5%;
     margin-bottom: 5%;
     animation: slide 0.3s;
     animation-timing-function: linear;
-    
+
 }
 
 
@@ -185,7 +198,7 @@ h1 {
 
 .detailes {
     position: relative;
-    width: 80%;
+    width: 95%;
     padding: 0.5% 0 0 1.5%;
     border-left: 1px solid grey;
     animation: slide 0.8s;
@@ -197,19 +210,22 @@ h1 {
 }
 
 /*fini ici*/
+.detailes .btn {
+    width: 100%;
+}
+
 
 .btn {
+    width: 90%;
+    height: auto;
     margin: 3% auto;
     bottom: 0;
     background: #00aeff;
     color: aliceblue;
-    position: relative;
     bottom: 0;
     text-align: center;
     padding: 0.7% 1.5% 0.7% 1.5%;
     border-radius: 5px;
-    width: 97%;
-    height: auto;
     text-align: center;
     font-size: 1.8vh;
 }
@@ -227,6 +243,11 @@ h2 {
     margin: 0px;
 
 
+}
+
+p {
+    text-align: center;
+    color: white;
 }
 
 h3 {
@@ -248,7 +269,7 @@ h4 {
 h5 {
     font-size: 2.5vh;
     margin: 0px;
-  
+
 }
 
 
@@ -279,20 +300,20 @@ a {
 .social a {
     color: #00aeff;
     font-size: 4vh;
-    width:98%;
+    width: 98%;
     border: #00aeff solid 2px;
     margin: 1%;
     align-content: center;
     justify-content: center;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
 
 
-video{
-    width:95%;
+video {
+    width: 95%;
     outline: none;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 2%;
 }
 
@@ -307,7 +328,7 @@ footer {
 footer a {
     color: cornflowerblue;
     text-decoration: none;
-    margin-bottom:10%;
+    margin-bottom: 10%;
 
 }
 
@@ -319,23 +340,23 @@ p {
 }
 
 /*wallpaper*/
-.wallpapersection{
+.wallpapersection {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom:30%;
+    margin-bottom: 30%;
 }
 
-.wpbloc{
-    width:30%;
+.wpbloc {
+    width: 30%;
     padding: 0.5%;
-    margin:0.5%;
+    margin: 0.5%;
     border: black solid 2px;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
-.wpbloc img{
-    width:100%;
-    height:auto;
+.wpbloc img {
+    width: 100%;
+    height: auto;
 }
 
 
@@ -359,26 +380,26 @@ p {
     width: 50%;
 }
 
-.djthings{
+.djthings {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom:20%;  
+    margin-bottom: 20%;
 }
 
-.djthings img{
-    width:30%;
+.djthings img {
+    width: 30%;
     padding: 0.5%;
-    margin:0.5%;
+    margin: 0.5%;
     border: black solid 2px;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
-.djlogo{
-    width:20%;
-    margin:0 auto;
+.djlogo {
+    width: 20%;
+    margin: 0 auto;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-direction: column;
 
@@ -407,18 +428,22 @@ p {
     54%,
     56%,
     100% {
-        text-shadow:0 0 30px #ffffff,1px 0px 30px #006eff;
+        text-shadow: 0 0 30px #ffffff, 1px 0px 30px #006eff;
         color: white;
     }
 }
 
 
 @keyframes slide {
-    0%   { opacity: 0;margin-left:50%;transform: rotate(-1.5deg)}
-    100% { opacity: 1;margin-left:0%;transform: rotate(0)  }
-  }
+    0% {
+        opacity: 0;
+        margin-left: 50%;
+        transform: rotate(-1.5deg)
+    }
 
-p{
-    text-align: center;
-    color:white;
+    100% {
+        opacity: 1;
+        margin-left: 0%;
+        transform: rotate(0)
+    }
 }
