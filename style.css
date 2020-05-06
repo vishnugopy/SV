@@ -338,12 +338,6 @@ p {
     margin: 0;
 }
 
-.models{
- width: 300px;
- height: 300px;
- overflow-y: scroll;
-}
-
 
 /*wallpaper*/
 .wallpapersection {
@@ -351,6 +345,8 @@ p {
     flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: 30%;
+    align-content: center;
+    justify-content: center;
 }
 
 .wpbloc {
@@ -360,6 +356,15 @@ p {
     border: black solid 2px;
     border-radius: 5px;
 }
+
+.tdbloc {
+    width: 80%;
+    padding: 0.5%;
+    margin: 0.5%;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
 
 .wpbloc img {
     width: 100%;
