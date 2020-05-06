@@ -8,6 +8,10 @@
   }
 
 
+  span{
+    display: none;
+}
+
   .coversection {
     margin: 0 auto;
     width: 96%;

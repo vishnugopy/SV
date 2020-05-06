@@ -72,7 +72,10 @@ body {
     z-index: 5;
 }
 
-
+span{
+    justify-content: center;
+    align-content: center;
+}
 
 h1 {
     padding: 3%;
