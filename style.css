@@ -338,10 +338,18 @@ p {
     margin: 0;
 }
 
+.models{
+ width: 300px;
+ height: 300px;
+ overflow-y: scroll;
+}
+
+
 /*wallpaper*/
 .wallpapersection {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     margin-bottom: 30%;
 }
 
