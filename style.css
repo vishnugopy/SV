@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0 auto;
@@ -32,12 +31,13 @@
 
 html {
     scroll-behavior: smooth;
+    font-weight: 400 ;
 }
 
 body {
     background: white;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 100;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400 ;
 }
 
 .coversection {
@@ -48,20 +48,19 @@ body {
 }
 
 .productcover {
-    
     margin: 2% auto;
     border-radius: 5px; 
 }
 
 .main-bar {
     opacity: 1;
-    background-color: white;
-    width: 80%;
-    height: 7%;
-    margin: 0.3% auto;
+    background-color: #328ed2;
+    width: 70%;
+    height: 5%;
+    margin: 0 auto;
+    padding: 2%;
     font-size: 4vh;
     display: flex;
-    border: whitesmoke solid 2px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -72,19 +71,31 @@ body {
     z-index: 5;
 }
 
+.offlogo{
+width: 3vh;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
 span{
+    font-size: 2vh;
     color: black;
     justify-content: center;
     align-content: center;
+    padding: 0.5% 0;
 }
 
 h1 {
     padding: 3%;
     font-size: 7vh;
     line-height: 7vh;
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Barlow', sans-serif;
     text-align: center;
     animation: blink 5s infinite;
+    font-weight: 100 ;
 }
 
 .vbg {
@@ -241,6 +252,7 @@ h2 {
     margin-left: 3%;
     color: black;
     margin: 0px;
+    font-weight: 400 ;
 
 
 }
@@ -248,6 +260,7 @@ h2 {
 p {
     text-align: center;
     color: white;
+    font-weight: 400 ;
 }
 
 h3 {
@@ -256,19 +269,22 @@ h3 {
     margin: 0px;
     color: black;
     margin: 0px;
+    font-weight: 100 ;
 }
 
 h4 {
 
     font-size: 2vh;
     margin: 0px;
-    color: dimgrey;
+    color: rgb(29, 29, 29);
+    font-weight: 400 ;
 
 }
 
 h5 {
     font-size: 2.5vh;
     margin: 0px;
+    font-weight: 400 ;
 
 }
 
@@ -277,6 +293,7 @@ p {
     font-size: 2vh;
     margin: 0px;
     color: black;
+    font-weight: 400 ;
 }
 
 a {
