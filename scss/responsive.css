@@ -1,39 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
-
-
 @media screen and (max-width: 1024px) {
   body {
     width: 100%;
   }
-
-
-  span{
+  span {
     display: none;
-}
-
+  }
   .coversection {
     margin: 0 auto;
     width: 96%;
     height: auto;
-
   }
-
   .vbg {
     width: 100%;
   }
-
   .main-bar {
     opacity: 1;
     width: auto;
     height: 7%;
     margin: 0 auto;
     font-size: 4vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
     position: fixed;
     border: none;
     right: 0;
@@ -42,59 +41,51 @@
     z-index: 5;
     border-radius: 2px;
   }
-
   footer {
     margin: 0 0 30% 0;
   }
-
   section {
     padding: 0.5%;
   }
-
   .ad-service {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-
-
   .img-service {
     width: 95%;
     height: auto;
     margin: 0.5%;
+    margin: 1% auto;
   }
-
   .text-service {
     width: 95%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
     text-align: center;
   }
-
-
   .text-service .btn {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 1% auto;
     text-align: center;
     width: 95%;
   }
-
-  .img-service {
-    margin: 1% auto;
-  }
-
-  /*wallpaper*/
   .wpbloc {
     width: 46%;
-
   }
-
-
   .djthings img {
     margin: 1% 1%;
     width: 44%;
     padding: 1%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
-
 }
+/*# sourceMappingURL=responsive.css.map */

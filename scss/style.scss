@@ -1,0 +1,324 @@
+$white-color: #ffffff;
+$black-color: #000000;
+$back: whitesmoke;
+$theme: #00c0f0;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background: $back;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.coversection {
+	width: 70%;
+	margin: auto;
+	vertical-align: middle;
+}
+.productcover {
+	margin: 1% auto;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16), 
+                0 8px 8px rgba(0,0,0,0.20);
+	padding: 2%;
+	margin:1%;
+	border-radius: 15px 0 15px 0;
+}
+.main-bar {
+	opacity: 1;
+	background-color: $theme;
+	color: $white-color;
+	width: 100%;
+	height: 5%;
+	margin: 0 auto;
+	padding: 2%;
+	font-size: 4vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+.offlogo {
+	width: 3vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	&:hover + span {
+		color: $black-color;
+		transform: scale(1.3);
+		z-index: 5;
+		transition: all 0.5s ease-out;
+
+	}
+}
+.tapbut {
+	color: $white-color;
+	&:hover + span {
+		color: $black-color;
+		transform: scale(1.3);
+		z-index: 5;
+		transition: all 0.5s ease-out;
+
+	}
+}
+
+.pharagraphe {
+	margin: 1%;
+	align-items: center;
+}
+.namesection {
+	padding: 20% 5% 5% 5%;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+}
+.pot {
+	width: 30%;
+	margin: 0 auto 0 0;
+	img {
+		border-radius: 5% 0% 5% 0%;
+		width: 90%;
+		height: auto;
+		margin: 0 5% 0 0;
+		float: right;
+	}
+}
+
+.socialicon {
+	color: $theme;
+	font-size: 3vh;
+	margin: 0;
+}
+.subheading {
+	color: $theme;
+	border-bottom: 3px solid $black-color;
+	margin: 0% 0% 3% 0%;
+	font-size: 3vh;
+	padding: 0 0 0 3%;
+	i{
+		color: $theme;
+	}
+}
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+.bloc {
+	width: 100%;
+	padding: 0.5%;
+	margin-bottom: 5%;
+	animation: slide 0.3s;
+	animation-timing-function: linear;
+}
+.sale {
+	display: flex;
+	padding: 2.5%;
+	margin: 0;
+	justify-content: flex-start;
+	position: relative;
+	animation: slide 0.4s;
+	animation-timing-function: linear;
+}
+.ad-service {
+	display: flex;
+	animation: slide 0.4s;
+	animation-timing-function: linear;
+}
+.detailes {
+	position: relative;
+	width: 95%;
+	padding: 0.5% 0 0 1.5%;
+	border-left: 3px solid $black-color;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.btn {
+	width: 90%;
+	height: auto;
+	margin: 3% auto;
+	bottom: 0;
+	background: $theme;
+	color: $black-color;
+	font-weight: 500;
+	bottom: 0;
+	text-align: center;
+	padding: 1% 1.5% 1% 1.5%;
+	text-align: center;
+	font-size: 2vh;
+	&:hover {
+		background: $black-color;
+		color: $white-color;
+	}
+}
+span {
+	font-size: 2vh;
+	color: $white-color;
+	justify-content: center;
+	align-content: center;
+	padding: 0.5% 0;
+}
+h1 {
+	color: $black-color;
+	padding: 3%;
+	font-size: 7vh;
+	line-height: 7vh;
+	text-align: center;
+	font-weight: 400;
+}
+h2 {
+	font-size: 2.5vh;
+	margin-left: 3%;
+	color: $black-color;
+	margin: 0px;
+	font-weight: 500;
+}
+h3 {
+	font-size: 2.5vh;
+	margin: 0px;
+	color: $black-color;
+	margin: 0px;
+	font-weight: 300;
+}
+h4 {
+	font-size: 2vh;
+	margin: 0px;
+	color:$black-color;
+	font-weight: 100;
+}
+h5 {
+	font-size: 2.5vh;
+	margin: 0px;
+	font-weight: 100;
+}
+p {
+	text-align: center;
+	color: $white-color;
+	font-weight: 100;
+	font-size: 2vh;
+	margin: 0px;
+	color: $black-color;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+.social {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-self: center;
+	justify-content: center;
+	width: 50%;
+	a {
+		color: $theme;
+		width: 30%;
+		font-size: 3rem;
+		align-content: center;
+		justify-content: center;
+		margin: 1% 10%;
+		padding: 1% 10%;
+	}
+}
+video {
+	width: 95%;
+	outline: none;
+	margin: 0 auto;
+	padding: 2%;
+}
+footer {
+	margin: 5% 0 20% 0;
+	background: $white-color;
+	height: 10%;
+	padding: 2%;
+	text-align: center;
+	a {
+		color: $theme;
+		text-decoration: none;
+		margin-bottom: 10%;
+	}
+}
+ul {
+	margin: 0;
+}
+li {
+	li {
+		margin: 0;
+	}
+}
+.wallpapersection {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 30%;
+	align-content: center;
+	justify-content: center;
+}
+.wpbloc {
+	width: 30%;
+	padding: 0.5%;
+	margin: 0.5%;
+	border: $black-color solid 2px;
+	border-radius: 5px;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+.tdbloc {
+	width: 73%;
+	padding: 0.5%;
+	margin: 0.5%;
+	border: $black-color solid 2px;
+	border-radius: 5px;
+}
+.dj {
+	padding: 2%;
+	margin: 1%;
+	justify-content: flex-start;
+}
+.img-service {
+	-webkit-width: 50%;
+	-webkit-height: auto;
+	width: 50%;
+	height: auto;
+	padding: 0 0 0 2%;
+}
+.text-service {
+	padding: 0 0 0 2%;
+	width: 50%;
+}
+.djthings {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20%;
+	img {
+		width: 30%;
+		padding: 0.5%;
+		margin: 0.5%;
+		border: $black-color solid 2px;
+		border-radius: 5px;
+	}
+}
+.djlogo {
+	width: 20%;
+	margin: 0 auto;
+}

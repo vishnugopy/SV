@@ -1,0 +1,74 @@
+@media screen and (max-width: 1024px) {
+	body {
+		width: 100%;
+	}
+	span {
+		display: none;
+	}
+	.coversection {
+		margin: 0 auto;
+		width: 96%;
+		height: auto;
+	}
+	.vbg {
+		width: 100%;
+	}
+	.main-bar {
+		opacity: 1;
+		width: auto;
+		height: 7%;
+		margin: 0 auto;
+		font-size: 4vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		align-content: space-between;
+		position: fixed;
+		border: none;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 5;
+		border-radius: 2px;
+	}
+	footer {
+		margin: 0 0 30% 0;
+	}
+	section {
+		padding: 0.5%;
+	}
+	.ad-service {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.img-service {
+		width: 95%;
+		height: auto;
+		margin: 0.5%;
+		margin: 1% auto;
+	}
+	.text-service {
+		width: 95%;
+		align-items: center;
+		margin: 0 auto;
+		text-align: center;
+		.btn {
+			align-items: center;
+			margin: 1% auto;
+			text-align: center;
+			width: 95%;
+		}
+	}
+	.wpbloc {
+		width: 46%;
+	}
+	.djthings {
+		img {
+			margin: 1% 1%;
+			width: 44%;
+			padding: 1%;
+			align-items: center;
+		}
+	}
+}

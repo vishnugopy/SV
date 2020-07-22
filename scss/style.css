@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: whitesmoke;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.coversection {
+  width: 70%;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.productcover {
+  margin: 1% auto;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
+  padding: 2%;
+  margin: 1%;
+  border-radius: 15px 0 15px 0;
+}
+
+.main-bar {
+  opacity: 1;
+  background-color: #00c0f0;
+  color: #ffffff;
+  width: 100%;
+  height: 5%;
+  margin: 0 auto;
+  padding: 2%;
+  font-size: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.offlogo {
+  width: 3vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.offlogo:hover + span {
+  color: #000000;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  z-index: 5;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.tapbut {
+  color: #ffffff;
+}
+
+.tapbut:hover + span {
+  color: #000000;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  z-index: 5;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.pharagraphe {
+  margin: 1%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.namesection {
+  padding: 20% 5% 5% 5%;
+  margin-bottom: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+}
+
+.pot {
+  width: 30%;
+  margin: 0 auto 0 0;
+}
+
+.pot img {
+  border-radius: 5% 0% 5% 0%;
+  width: 90%;
+  height: auto;
+  margin: 0 5% 0 0;
+  float: right;
+}
+
+.socialicon {
+  color: #00c0f0;
+  font-size: 3vh;
+  margin: 0;
+}
+
+.subheading {
+  color: #00c0f0;
+  border-bottom: 3px solid #000000;
+  margin: 0% 0% 3% 0%;
+  font-size: 3vh;
+  padding: 0 0 0 3%;
+}
+
+.subheading i {
+  color: #00c0f0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bloc {
+  width: 100%;
+  padding: 0.5%;
+  margin-bottom: 5%;
+  -webkit-animation: slide 0.3s;
+          animation: slide 0.3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2.5%;
+  margin: 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  -webkit-animation: slide 0.4s;
+          animation: slide 0.4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.ad-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: slide 0.4s;
+          animation: slide 0.4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.detailes {
+  position: relative;
+  width: 95%;
+  padding: 0.5% 0 0 1.5%;
+  border-left: 3px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn {
+  width: 90%;
+  height: auto;
+  margin: 3% auto;
+  bottom: 0;
+  background: #00c0f0;
+  color: #000000;
+  font-weight: 500;
+  bottom: 0;
+  text-align: center;
+  padding: 1% 1.5% 1% 1.5%;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.btn:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+span {
+  font-size: 2vh;
+  color: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 0.5% 0;
+}
+
+h1 {
+  color: #000000;
+  padding: 3%;
+  font-size: 7vh;
+  line-height: 7vh;
+  text-align: center;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.5vh;
+  margin-left: 3%;
+  color: #000000;
+  margin: 0px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2.5vh;
+  margin: 0px;
+  color: #000000;
+  margin: 0px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 2vh;
+  margin: 0px;
+  color: #000000;
+  font-weight: 100;
+}
+
+h5 {
+  font-size: 2.5vh;
+  margin: 0px;
+  font-weight: 100;
+}
+
+p {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 2vh;
+  margin: 0px;
+  color: #000000;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+.social a {
+  color: #00c0f0;
+  width: 30%;
+  font-size: 3rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1% 10%;
+  padding: 1% 10%;
+}
+
+video {
+  width: 95%;
+  outline: none;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+footer {
+  margin: 5% 0 20% 0;
+  background: #ffffff;
+  height: 10%;
+  padding: 2%;
+  text-align: center;
+}
+
+footer a {
+  color: #00c0f0;
+  text-decoration: none;
+  margin-bottom: 10%;
+}
+
+ul {
+  margin: 0;
+}
+
+li li {
+  margin: 0;
+}
+
+.wallpapersection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 30%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wpbloc {
+  width: 30%;
+  padding: 0.5%;
+  margin: 0.5%;
+  border: #000000 solid 2px;
+  border-radius: 5px;
+}
+
+.wpbloc img {
+  width: 100%;
+  height: auto;
+}
+
+.tdbloc {
+  width: 73%;
+  padding: 0.5%;
+  margin: 0.5%;
+  border: #000000 solid 2px;
+  border-radius: 5px;
+}
+
+.dj {
+  padding: 2%;
+  margin: 1%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.img-service {
+  -webkit-width: 50%;
+  -webkit-height: auto;
+  width: 50%;
+  height: auto;
+  padding: 0 0 0 2%;
+}
+
+.text-service {
+  padding: 0 0 0 2%;
+  width: 50%;
+}
+
+.djthings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 20%;
+}
+
+.djthings img {
+  width: 30%;
+  padding: 0.5%;
+  margin: 0.5%;
+  border: #000000 solid 2px;
+  border-radius: 5px;
+}
+
+.djlogo {
+  width: 20%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
