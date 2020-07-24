@@ -12,6 +12,8 @@ body {
   background: whitesmoke;
   font-family: 'Noto Sans TC', sans-serif;
   padding: 13% 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .coversection {
