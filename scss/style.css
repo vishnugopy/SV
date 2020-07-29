@@ -220,9 +220,11 @@ body {
 }
 
 .btn:hover {
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
   background: #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   color: #98bfff;
 }
 
@@ -326,12 +328,34 @@ footer {
   height: 10%;
   padding: 2%;
   text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 3px solid #012154;
+  border-bottom: 3px solid #012154;
 }
 
 footer a {
   color: #012154;
   text-decoration: none;
   margin-bottom: 10%;
+}
+
+footer h4 {
+  margin: 1%;
+}
+
+footer .footercontrol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: center;
+}
+
+footer .footercontrol img {
+  height: 30px;
 }
 
 ul {

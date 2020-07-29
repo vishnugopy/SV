@@ -165,8 +165,9 @@ body {
 	text-align: center;
 	font-size: 2vh;
 	&:hover {
-		transition: all 0.5s ease-in;
+		transition: all 1s ease-in;
 		background: $black-color;
+		transform: scale(1.1);
 		color: $themesupport;
 	}
 }
@@ -246,10 +247,25 @@ footer {
 	height: 10%;
 	padding: 2%;
 	text-align: center;
+	align-content: center;
+	justify-content: center;
+	border-top:3px solid $theme;
+	border-bottom:3px solid $theme;
 	a {
 		color: $theme;
 		text-decoration: none;
 		margin-bottom: 10%;
+	}
+	h4{
+		margin: 1%;
+	}
+	.footercontrol{
+		display: flex;
+		vertical-align: center;
+		
+	img{
+		height:30px;
+	}
 	}
 }
 ul {
