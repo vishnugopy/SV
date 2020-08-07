@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=darktheme.css.map */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  .subheading {
+    color: #98bfff;
+    border-bottom: 3px solid #ffffff;
+  }
+  .subheading i {
+    color: #98bfff;
+  }
+  h1, h2, h4, h3, h5 {
+    color: #ffffff;
+  }
+  footer h4 {
+    color: #ffffff;
+  }
+}
+/*# sourceMappingURL=darktheme.css.map */
