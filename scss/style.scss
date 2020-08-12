@@ -2,7 +2,8 @@ $white-color: #ffffff;
 $black-color: #000000;
 $back: whitesmoke;
 $theme: #012154;
-$themesupport: #98bfff;
+$themesupport: #03f8fc;
+$icons: #2672ff;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
@@ -56,7 +57,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: center;
+	align-items: flex-start;
 }
 .offlogo {
 	width: 3vh;
@@ -102,7 +103,7 @@ body {
 }
 
 .socialicon {
-	color: $theme;
+	color: $icons;
 	font-size: 3vh;
 	margin: 0;
 }
@@ -167,9 +168,18 @@ body {
 	&:hover {
 		transition: all 1s ease-in;
 		background: $black-color;
-		transform: scale(1.1);
+		transform: scale(1.05);
 		color: $themesupport;
 	}
+}
+
+.contactbuts{
+display: flex;
+justify-content: flex-start;
+align-items: left;
+i{
+padding: 0% 20%;
+}
 }
 span {
 	font-size: 2vh;
@@ -183,7 +193,7 @@ h1 {
 	font-size: 2vh;
 	text-align: center;
 	font-weight: 400;
-	margin: 0;
+	margin: 2% 0;
 	background-color: $theme;
 }
 h2 {
@@ -227,13 +237,13 @@ a {
 .social {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-self: center;
 	justify-content: center;
 	width: 50%;
 	a {
+		width: 50%;
 		color: $theme;
-		width: 30%;
 		font-size: 3rem;
 		align-content: center;
 		justify-content: center;

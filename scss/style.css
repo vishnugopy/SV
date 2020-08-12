@@ -57,9 +57,9 @@ body {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .offlogo {
@@ -81,7 +81,7 @@ body {
 }
 
 .offlogo:hover + span {
-  color: #98bfff;
+  color: #03f8fc;
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 5;
@@ -94,7 +94,7 @@ body {
 }
 
 .tapbut:hover + span {
-  color: #98bfff;
+  color: #03f8fc;
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 5;
@@ -123,7 +123,7 @@ body {
 }
 
 .socialicon {
-  color: #012154;
+  color: #2672ff;
   font-size: 3vh;
   margin: 0;
 }
@@ -223,9 +223,25 @@ body {
   -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
   background: #000000;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  color: #98bfff;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: #03f8fc;
+}
+
+.contactbuts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.contactbuts i {
+  padding: 0% 20%;
 }
 
 span {
@@ -240,11 +256,11 @@ span {
 }
 
 h1 {
-  color: #98bfff;
+  color: #03f8fc;
   font-size: 2vh;
   text-align: center;
   font-weight: 400;
-  margin: 0;
+  margin: 2% 0;
   background-color: #012154;
 }
 
@@ -299,9 +315,9 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-item-align: center;
       align-self: center;
   -webkit-box-pack: center;
@@ -311,8 +327,8 @@ a {
 }
 
 .social a {
+  width: 50%;
   color: #012154;
-  width: 30%;
   font-size: 3rem;
   -ms-flex-line-pack: center;
       align-content: center;

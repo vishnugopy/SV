@@ -10,13 +10,21 @@ $themesupport: #98bfff;
 		padding: 30% 0;
 		
 	}
-	span {
-		display: none;
-	}
+
 	.coversection {
 		margin: 0 auto;
 		width: 96%;
 		height: auto;
+	}
+
+	.social{
+		flex-wrap: wrap;
+		align-items: left;
+	}
+
+	.navs span{
+
+		display: none;
 	}
 
 	.nav-bar {

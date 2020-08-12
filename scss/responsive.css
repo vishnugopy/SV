@@ -3,13 +3,20 @@
     width: 100%;
     padding: 30% 0;
   }
-  span {
-    display: none;
-  }
   .coversection {
     margin: 0 auto;
     width: 96%;
     height: auto;
+  }
+  .social {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+  }
+  .navs span {
+    display: none;
   }
   .nav-bar {
     padding: 5% 0;
