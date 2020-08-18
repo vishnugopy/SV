@@ -11,12 +11,18 @@
   .social {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+  }
+  h1 {
+    color: #98bfff;
+    margin: 5% 0;
+  }
+  header {
+    padding: 5% 0;
   }
   .navs span {
+    font-size: 0.3em;
     display: none;
+    margin: 20% 0;
   }
   .nav-bar {
     padding: 5% 0;

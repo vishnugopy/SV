@@ -19,13 +19,24 @@ $themesupport: #98bfff;
 
 	.social{
 		flex-wrap: wrap;
-		align-items: left;
+		
 	}
 
-	.navs span{
+	h1{
+		color: $themesupport;
+		margin: 5% 0;
+	}
 
+	header{
+		padding: 5% 0;
+	}
+	.navs {
+	span{
+		font-size: 0.3em;
 		display: none;
+		margin: 20% 0;
 	}
+}
 
 	.nav-bar {
 		padding: 5% 0;

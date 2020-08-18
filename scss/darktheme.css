@@ -5,7 +5,6 @@
   }
   .subheading {
     color: #03f8fc;
-    border-bottom: 3px solid #ffffff;
   }
   .subheading i {
     color: #03f8fc;
@@ -17,7 +16,7 @@
     color: #ffffff;
   }
   .detailes {
-    border-left: 2px solid #ffffff;
+    border-left: 1px solid #ffffff;
   }
 }
 /*# sourceMappingURL=darktheme.css.map */
