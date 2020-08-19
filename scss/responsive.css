@@ -8,10 +8,6 @@
     width: 96%;
     height: auto;
   }
-  .social {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
   h1 {
     color: #98bfff;
     margin: 5% 0;

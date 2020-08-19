@@ -4,6 +4,7 @@ $back: whitesmoke;
 $theme: #012154;
 $themesupport: #03f8fc;
 $icons: #2672ff;
+$lightcolor:#f8f8f8;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
@@ -12,6 +13,26 @@ $icons: #2672ff;
 	margin: 0 auto;
 	padding: 0;
 }
+
+::-webkit-scrollbar {
+	width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: $themesupport; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background:$themesupport; 
+	border: 1px solid $white-color;
+  }
 
 html {
 	scroll-behavior: smooth;
@@ -23,20 +44,73 @@ body {
 	transition: all 0.5s ease-in-out;
 }
 .coversection {
-	width: 70%;
+	width: 60%;
 	margin: auto;
 	vertical-align: middle;
 }
+
+.sale {
+
+	margin:auto;
+	justify-content: flex-start;
+}
+.detailes {
+	width: 95%;
+	padding: 0.5% 0 0 1.5%;
+	margin: 0% 0% 4% 0%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.line{
+		position: absolute;
+		top: 0;
+		margin: 1% 0;
+		padding: 2% 0;
+	}
+
+}
 .productcover {
 	margin: 1% auto 8% auto;
+	background: $lightcolor;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
-                0 2px 2px rgba(0,0,0,0.12), 
-                0 4px 4px rgba(0,0,0,0.16), 
-				0 8px 8px rgba(0,0,0,0.20);
+                0 1px 2px rgba(0,0,0,0.12), 
+                0 1px 2px rgba(0,0,0,0.16), 
+				0 1px 4px rgba(0,0,0,0.20);
 	border-radius: 5px;
 	padding: 2%;
+	position: relative;
+
+
+	.pot {
+		width: 35%;
+		margin: 0 auto 0 0;
+		float: right;
+		img {
+			position: relative;
+			border-radius: 5px;
+			width: 90%;
+			height: auto;
+			margin: 0% 5% 0 0;
+			float: right;
+		}
+	}
 	
 }
+
+.buttonslot{
+	display: flex;
+	a{
+		width: 40%;
+	}
+	.btn{
+		width: 100%;
+		margin: auto;
+		height: 90%;
+		
+	}
+}
+
 
 header {
 	padding: 2% 0;
@@ -91,17 +165,6 @@ header {
 	align-items: center;
 }
 
-.pot {
-	width: 30%;
-	margin: 0 auto 0 0;
-	img {
-		border-radius: 5px;
-		width: 90%;
-		height: auto;
-		margin: 0 5% 0 0;
-		float: right;
-	}
-}
 
 .socialicon {
 	color: $icons;
@@ -111,7 +174,7 @@ header {
 .subheading {
 	color: $theme;
 	margin: 0% 0% 3% 0%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	padding: 0 0 0 3%;
 	i{
 		color: $theme;
@@ -128,42 +191,27 @@ header {
 	animation: slide 0.3s;
 	animation-timing-function: linear;
 }
-.sale {
-	display: flex;
-	padding: 2.5%;
-	margin: 0;
-	justify-content: flex-start;
-	position: relative;
-	animation: slide 0.4s;
-	animation-timing-function: linear;
-}
+
 .ad-service {
 	display: flex;
 	animation: slide 0.4s;
 	animation-timing-function: linear;
 }
-.detailes {
-	position: relative;
-	width: 95%;
-	padding: 0.5% 0 0 1.5%;
-	border-left: 1px solid $black-color;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
+
 .btn {
 	width: 90%;
 	height: auto;
-	margin: 3% auto;
+	margin: 1% auto;
 	bottom: 0;
 	background: $theme;
 	color: $white-color;
 	font-weight: 100;
 	border-radius: 5px;
 	bottom: 0;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 	padding: 1% 1.5% 1% 1.5%;
-	text-align: center;
 	font-size: 0.9em;
 	&:hover {
 		transition: all 1s ease-in;
@@ -173,14 +221,7 @@ header {
 	}
 }
 
-.contactbuts{
-display: flex;
-justify-content: flex-start;
-align-items: left;
-i{
-padding: 0% 20%;
-}
-}
+
 span {
 	font-size: 2vh;
 	color: $white-color;
@@ -206,17 +247,18 @@ h2 {
 	font-weight: 500;
 }
 h3 {
-	font-size: 1em;
+	font-size: 1.2em;
 	margin: 0px;
 	color: $black-color;
 	margin: 0px;
-	font-weight: 300;
+	font-weight: 400;
 }
 h4 {
 	font-size: 0.9em;
 	margin: 0px;
 	color:$black-color;
-	font-weight: 100;
+	font-weight: 300;
+
 }
 h5 {
 	font-size: 0.8em;
@@ -240,20 +282,31 @@ a {
 .social {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	align-self: center;
+	flex-wrap: wrap;
 	justify-content: center;
-	width: 50%;
+	justify-content: center;
+	width: 100%;
 	a {
-		width: 50%;
+		width: 60%;
 		color: $theme;
 		font-size: 1em;
 		align-content: center;
-		justify-content: center;
-		margin: 1% 10%;
-		padding: 1% 10%;
+		justify-content: left;
+		text-align: left;
+		margin: 1% auto;
+		border-bottom:1px solid $theme;
+		padding: 1% 5%;
 	}
 }
+
+.contactbuts{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	i{
+	margin: 0% 4%;
+	}
+	}
 
 footer {
 	margin: 5% 0 20% 0;

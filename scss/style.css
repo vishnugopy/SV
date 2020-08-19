@@ -4,6 +4,26 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #03f8fc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #03f8fc;
+  border: 1px solid #ffffff;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -17,17 +37,80 @@ body {
 }
 
 .coversection {
-  width: 70%;
+  width: 60%;
   margin: auto;
   vertical-align: middle;
 }
 
+.sale {
+  margin: auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.detailes {
+  width: 95%;
+  padding: 0.5% 0 0 1.5%;
+  margin: 0% 0% 4% 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.detailes .line {
+  position: absolute;
+  top: 0;
+  margin: 1% 0;
+  padding: 2% 0;
+}
+
 .productcover {
   margin: 1% auto 8% auto;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
+  background: #f8f8f8;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.16), 0 1px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.16), 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 2%;
+  position: relative;
+}
+
+.productcover .pot {
+  width: 35%;
+  margin: 0 auto 0 0;
+  float: right;
+}
+
+.productcover .pot img {
+  position: relative;
+  border-radius: 5px;
+  width: 90%;
+  height: auto;
+  margin: 0% 5% 0 0;
+  float: right;
+}
+
+.buttonslot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.buttonslot a {
+  width: 40%;
+}
+
+.buttonslot .btn {
+  width: 100%;
+  margin: auto;
+  height: 90%;
 }
 
 header {
@@ -109,19 +192,6 @@ header {
           align-items: center;
 }
 
-.pot {
-  width: 30%;
-  margin: 0 auto 0 0;
-}
-
-.pot img {
-  border-radius: 5px;
-  width: 90%;
-  height: auto;
-  margin: 0 5% 0 0;
-  float: right;
-}
-
 .socialicon {
   color: #2672ff;
   font-size: 3vh;
@@ -131,7 +201,7 @@ header {
 .subheading {
   color: #012154;
   margin: 0% 0% 3% 0%;
-  font-size: 1.5em;
+  font-size: 1.3em;
   padding: 0 0 0 3%;
 }
 
@@ -159,22 +229,6 @@ header {
           animation-timing-function: linear;
 }
 
-.sale {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 2.5%;
-  margin: 0;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  position: relative;
-  -webkit-animation: slide 0.4s;
-          animation: slide 0.4s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-}
-
 .ad-service {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -185,36 +239,24 @@ header {
           animation-timing-function: linear;
 }
 
-.detailes {
-  position: relative;
-  width: 95%;
-  padding: 0.5% 0 0 1.5%;
-  border-left: 1px solid #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .btn {
   width: 90%;
   height: auto;
-  margin: 3% auto;
+  margin: 1% auto;
   bottom: 0;
   background: #012154;
   color: #ffffff;
   font-weight: 100;
   border-radius: 5px;
   bottom: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   padding: 1% 1.5% 1% 1.5%;
-  text-align: center;
   font-size: 0.9em;
 }
 
@@ -225,22 +267,6 @@ header {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   color: #03f8fc;
-}
-
-.contactbuts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-}
-
-.contactbuts i {
-  padding: 0% 20%;
 }
 
 span {
@@ -273,18 +299,18 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 0px;
   color: #000000;
   margin: 0px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 0.9em;
   margin: 0px;
   color: #000000;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 h5 {
@@ -316,28 +342,44 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-item-align: center;
-      align-self: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 50%;
+  justify-content: center;
+  width: 100%;
 }
 
 .social a {
-  width: 50%;
+  width: 60%;
   color: #012154;
   font-size: 1em;
   -ms-flex-line-pack: center;
       align-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  text-align: left;
+  margin: 1% auto;
+  border-bottom: 1px solid #012154;
+  padding: 1% 5%;
+}
+
+.contactbuts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 1% 10%;
-  padding: 1% 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactbuts i {
+  margin: 0% 4%;
 }
 
 footer {

@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;
+    background-color: #000000;
     color: #ffffff;
   }
   .subheading {
@@ -9,14 +9,14 @@
   .subheading i {
     color: #03f8fc;
   }
+  .productcover {
+    background: #121212;
+  }
   h1, h2, h4, h3, h5 {
     color: #ffffff;
   }
   footer h4 {
     color: #ffffff;
-  }
-  .detailes {
-    border-left: 1px solid #ffffff;
   }
 }
 /*# sourceMappingURL=darktheme.css.map */

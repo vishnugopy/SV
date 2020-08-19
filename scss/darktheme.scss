@@ -3,10 +3,11 @@
 
 
     $white-color: #ffffff;
-    $black-color: #121212;
+    $black-color: #000000;
     $back: whitesmoke;
     $theme: #012154;
     $themesupport: #03f8fc;
+    $lightcolor:#121212;
 
 
     body{
@@ -21,6 +22,11 @@
         }
     }
 
+    .productcover{
+        background:$lightcolor ;
+
+    }
+
     h1,h2,h4,h3,h5{
         color: $white-color;
     }
@@ -32,8 +38,4 @@
        
     }
 
-    .detailes{
-        border-left: 1px solid $white-color;
-    }
-    
 }
