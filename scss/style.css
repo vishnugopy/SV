@@ -275,7 +275,7 @@ header {
   color: #03f8fc;
 }
 
-span {
+.navs a span {
   font-size: 2vh;
   color: #ffffff;
   -webkit-box-pack: center;
@@ -379,6 +379,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #000000;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
