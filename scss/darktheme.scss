@@ -1,45 +1,38 @@
-
 @media (prefers-color-scheme: dark) {
-
-
     $white-color: #ffffff;
     $black-color: #000000;
     $back: whitesmoke;
     $theme: #012154;
-    $themesupport: #03f8fc;
-    $lightcolor:#121212;
-
-
-    body{
+    $themesupport: #19d3da;
+    $lightcolor: #121212;
+    body {
         background-color: $black-color;
         color: $white-color;
     }
-
-    .subheading{
+    .subheading {
         color: $themesupport;
-        i{
-            color: $themesupport;   
+        i {
+            color: $themesupport;
         }
     }
-
     .contactbuts span {
         color: $white-color;
     }
-
-    .productcover{
-        background:$lightcolor ;
-
+    .productcover {
+        background: $lightcolor;
     }
-
-    h1,h2,h4,h3,h5{
+    h1 {
+        color: $themesupport;
+    }
+    h2,
+    h4,
+    h3,
+    h5 {
         color: $white-color;
     }
-
-    footer{
-        h4{
+    footer {
+        h4 {
             color: $white-color;
         }
-       
     }
-
 }

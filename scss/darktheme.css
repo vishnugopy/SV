@@ -4,10 +4,10 @@
     color: #ffffff;
   }
   .subheading {
-    color: #03f8fc;
+    color: #19d3da;
   }
   .subheading i {
-    color: #03f8fc;
+    color: #19d3da;
   }
   .contactbuts span {
     color: #ffffff;
@@ -15,7 +15,13 @@
   .productcover {
     background: #121212;
   }
-  h1, h2, h4, h3, h5 {
+  h1 {
+    color: #19d3da;
+  }
+  h2,
+  h4,
+  h3,
+  h5 {
     color: #ffffff;
   }
   footer h4 {
