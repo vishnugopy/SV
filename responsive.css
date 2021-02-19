@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px) {
+  header {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 3% 1%;
+    z-index: 2;
+  }
+  header a span {
+    display: none;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20% 0%;
+  }
+  .Contentshower {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1%;
+  }
+  .wallpaper {
+    width: 60%;
+    margin: 4% 10%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

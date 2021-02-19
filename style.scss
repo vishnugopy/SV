@@ -1,5 +1,5 @@
 $white: #ffffff;
-$black: #000000;
+$black: #0c0c0c;
 $theme: #012154;
 $lightblue: #19d3da;
 $iconscolor: #19d3da;
@@ -20,6 +20,7 @@ html {
 }
 
 body {
+    scroll-behavior: smooth;
     background: $black;
     font-family: 'Mulish', sans-serif;
     color: $white;
@@ -60,7 +61,57 @@ header{
             background: $white;
             border-radius: 5px;
         }
+    } 
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2% 1%;
+
+    .Contentshower{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.wallpaper{
+    width: 22%;
+    position: relative;
+    display: flex;
+    margin: 1% 5%;
+   
+
+    img{
+        width: 100%;
+        border: 0.5px solid $theme;
+        border-radius: 5px solid;
     }
 
-    
+    h4{
+        transform: rotate(90deg);
+        position: absolute;
+        bottom: 0;
+        margin: 80% -10%;
+    }
+
+    .buttondownload{
+        position:absolute;
+        width: 80px;
+        height: auto;
+        margin: 0 1%;
+        bottom: 0;
+        background-color: $theme;
+        text-decoration: none;
+        color: $white;
+        text-align: center;
+        padding: 5% 1%;
+        border-radius: 5px;
+    }
 }
+
+
+
+
+

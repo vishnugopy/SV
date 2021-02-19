@@ -13,7 +13,8 @@ html {
 }
 
 body {
-  background: #000000;
+  scroll-behavior: smooth;
+  background: #0c0c0c;
   font-family: 'Mulish', sans-serif;
   color: #ffffff;
 }
@@ -60,6 +61,61 @@ header nav a .tapbutton {
 header nav a:hover {
   color: #012154;
   background: #ffffff;
+  border-radius: 5px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2% 1%;
+}
+
+main .Contentshower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wallpaper {
+  width: 22%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1% 5%;
+}
+
+.wallpaper img {
+  width: 100%;
+  border: 0.5px solid #012154;
+  border-radius: 5px solid;
+}
+
+.wallpaper h4 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  position: absolute;
+  bottom: 0;
+  margin: 80% -10%;
+}
+
+.wallpaper .buttondownload {
+  position: absolute;
+  width: 80px;
+  height: auto;
+  margin: 0 1%;
+  bottom: 0;
+  background-color: #012154;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  padding: 5% 1%;
   border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
