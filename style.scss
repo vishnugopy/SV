@@ -31,7 +31,6 @@ header{
     height: auto;
     padding: 1% 3%;
 
-
     nav{
         display: flex;
         align-items: center;
@@ -76,6 +75,25 @@ main{
     }
 }
 
+
+.Nametag .logo_container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:3% auto;
+ 
+    .main_logo{
+        width: 80px;
+        margin:0;
+    }
+
+    div{
+        margin:0 2%;
+
+    }
+}
+
 .wallpaper{
     width: 22%;
     position: relative;
@@ -102,13 +120,46 @@ main{
         height: auto;
         margin: 0 1%;
         bottom: 0;
-        background-color: $theme;
+        background-color: $lightblue;
+        border: 0.2px solid $theme;
         text-decoration: none;
         color: $white;
         text-align: center;
         padding: 5% 1%;
         border-radius: 5px;
     }
+
+    .buttondownload:hover{
+        background-color: $white;
+        color: $theme;
+    }
+}
+
+footer{
+    background-color: $lightblue;
+    padding: 3% 3%;
+    display: flex;
+    justify-content: space-between;
+
+    div{
+        width: 20%;
+        display: flex;
+        justify-content: space-evenly;
+
+        a{
+            text-decoration: none;
+            color: $white;
+            background: #01215428;
+            padding: 2% 3%;
+            border-radius: 5px;
+        }
+        
+        a:hover{
+            color: $theme;
+            background:$white;
+        }
+    }
+
 }
 
 

@@ -1,5 +1,6 @@
 @media screen and (max-width: 1200px) {
 
+
     header{
         position: fixed;
         bottom: 0;
@@ -14,7 +15,7 @@
     main{
         width: 100%;
         margin: 0 auto;
-        padding: 20% 0%;
+        padding: 10% 0%;
     }
     .Contentshower{
         margin: 0 auto;
@@ -28,4 +29,35 @@
         width: 60%;
         margin: 4% 10%;
     }
+
+    .Nametag .logo_container{
+        width: 90%;
+        margin:10% auto;
+        flex-direction: column;
+     
+        .main_logo{
+            width: 50px;
+            margin:2% 0;
+        }
+    
+        div{
+            margin:0 2%;
+    
+        }
+    }
 }
+
+
+@media only screen and (min-device-width: 700px) and (max-device-width:  1200px){
+    /* For portrait layouts only */
+    main{
+        width: 100%;
+        margin: 0 auto;
+        padding: 10% 0%;
+    }
+
+    .wallpaper{
+        width:25%;
+        margin: 4% 10%;
+    }
+  }

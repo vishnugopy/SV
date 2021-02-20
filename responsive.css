@@ -12,7 +12,7 @@
   main {
     width: 100%;
     margin: 0 auto;
-    padding: 20% 0%;
+    padding: 10% 0%;
   }
   .Contentshower {
     margin: 0 auto;
@@ -29,6 +29,34 @@
   }
   .wallpaper {
     width: 60%;
+    margin: 4% 10%;
+  }
+  .Nametag .logo_container {
+    width: 90%;
+    margin: 10% auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Nametag .logo_container .main_logo {
+    width: 50px;
+    margin: 2% 0;
+  }
+  .Nametag .logo_container div {
+    margin: 0 2%;
+  }
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 1200px) {
+  /* For portrait layouts only */
+  main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10% 0%;
+  }
+  .wallpaper {
+    width: 25%;
     margin: 4% 10%;
   }
 }

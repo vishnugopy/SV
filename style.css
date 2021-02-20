@@ -82,6 +82,29 @@ main .Contentshower {
       flex-wrap: wrap;
 }
 
+.Nametag .logo_container {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3% auto;
+}
+
+.Nametag .logo_container .main_logo {
+  width: 80px;
+  margin: 0;
+}
+
+.Nametag .logo_container div {
+  margin: 0 2%;
+}
+
 .wallpaper {
   width: 22%;
   position: relative;
@@ -111,11 +134,51 @@ main .Contentshower {
   height: auto;
   margin: 0 1%;
   bottom: 0;
-  background-color: #012154;
+  background-color: #19d3da;
+  border: 0.2px solid #012154;
   text-decoration: none;
   color: #ffffff;
   text-align: center;
   padding: 5% 1%;
   border-radius: 5px;
+}
+
+.wallpaper .buttondownload:hover {
+  background-color: #ffffff;
+  color: #012154;
+}
+
+footer {
+  background-color: #19d3da;
+  padding: 3% 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer div {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer div a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #01215428;
+  padding: 2% 3%;
+  border-radius: 5px;
+}
+
+footer div a:hover {
+  color: #012154;
+  background: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
