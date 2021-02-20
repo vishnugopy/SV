@@ -45,6 +45,11 @@
     
         }
     }
+
+
+    footer{
+        display: none;
+    }
 }
 
 
@@ -59,5 +64,9 @@
     .wallpaper{
         width:25%;
         margin: 4% 10%;
+    }
+
+    footer{
+        display: none;
     }
   }
