@@ -1,6 +1,8 @@
 @media screen and (max-width: 1200px) {
 
-
+    body{
+        font-size: 110%;
+    }
     header{
         position: fixed;
         bottom: 0;
@@ -50,11 +52,23 @@
     footer{
         display: none;
     }
+
+    .about_us {
+
+    
+        h4 {
+            margin:15% 0% 3% 0%;
+        }
+    }
+    
 }
 
 
 @media only screen and (min-device-width: 700px) and (max-device-width:  1200px){
-    /* For portrait layouts only */
+
+    body{
+        font-size: 120%;
+    }
     main{
         width: 100%;
         margin: 0 auto;
@@ -68,5 +82,12 @@
 
     footer{
         display: none;
+    }
+
+    .about_us {
+
+        h4 {
+            margin: 10% 0% 1% 0%;
+        }
     }
   }

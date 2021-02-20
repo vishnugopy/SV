@@ -22,6 +22,10 @@ header.innerHTML =
    <p>&copy;Stupid_Version_studio_2020</p>
  `
 
-//  if (window.location.href == "index.html") {
-//      document.body.style.backgroundColor = "red";
-//  }
+ let homebutton = document.querySelector("nav a:nth-child(1)")
+ let aboutbutton = document.querySelector("nav a:nth-child(2)")
+ if (window.location.href.indexOf("index") > -1) {
+    homebutton.classList.add("activebutton");
+ } else if (window.location.href.indexOf("About") > -1){
+    aboutbutton.classList.add("activebutton");
+ }

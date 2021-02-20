@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  font-size: 120%;
   scroll-behavior: smooth;
   background: #0c0c0c;
   font-family: 'Mulish', sans-serif;
@@ -61,6 +62,12 @@ header nav a .tapbutton {
 header nav a:hover {
   color: #012154;
   background: #ffffff;
+  border-radius: 5px;
+}
+
+.activebutton {
+  color: #ffffff;
+  background: #0121548c;
   border-radius: 5px;
 }
 
@@ -178,6 +185,40 @@ footer div a {
 }
 
 footer div a:hover {
+  color: #012154;
+  background: #ffffff;
+}
+
+.about_us {
+  padding: 4%;
+}
+
+.about_us h4 {
+  margin: 5% 0% 1% 0%;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 3% 0;
+  margin: 3% 0 5% 0;
+  border-radius: 5px;
+  background: #012154;
+}
+
+.social a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #19d4da80;
+  padding: 2% 3%;
+  border-radius: 5px;
+}
+
+.social a:hover {
   color: #012154;
   background: #ffffff;
 }
