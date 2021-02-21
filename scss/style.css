@@ -91,7 +91,7 @@ main .Contentshower {
 }
 
 .Nametag .logo_container {
-  width: 40%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,6 +242,9 @@ footer div a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .lightanddark .buttonsselecter {
@@ -251,7 +254,7 @@ footer div a:hover {
   padding: 2% 5%;
   outline: none;
   border-radius: 5px;
-  margin: 0 2%;
+  margin: 0% 2%;
 }
 
 .lightanddark .buttonsselecter:hover {

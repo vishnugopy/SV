@@ -88,7 +88,7 @@ main {
 
 
 .Nametag .logo_container {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,7 +221,7 @@ footer {
     margin: 3% auto;
     display: flex;
     align-items: center;
-
+    justify-content: center;
 
     .buttonsselecter{
         background: rgba(255, 255, 255, 0.027);
@@ -230,7 +230,7 @@ footer {
         padding: 2% 5%;
         outline: none;
         border-radius: 5px;
-        margin: 0 2%;
+        margin: 0% 2%;
     }
 
     .buttonsselecter:hover{
