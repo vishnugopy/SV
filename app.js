@@ -3,7 +3,7 @@ let Contentshower = document.querySelector(".Contentshower")
 //content shower
 let number ;
 let imagearr = [];
-for (let i = 1; i < 15; i++) {
+for (let i = 1; i < 19; i++) {
     imagearr.push("Wallpapers/" + i + ".png")
     number = i;
 }
