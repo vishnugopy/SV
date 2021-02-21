@@ -4,6 +4,7 @@
   padding: 0;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
+  font-family: 'Mulish', sans-serif;
 }
 
 html {
@@ -112,13 +113,16 @@ main .Contentshower {
   margin: 0 2%;
 }
 
+.Mainbox {
+  width: 23%;
+  margin: 1% 5%;
+}
+
 .wallpaper {
-  width: 22%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 1% 5%;
 }
 
 .wallpaper img {
@@ -221,5 +225,42 @@ footer div a:hover {
 .social a:hover {
   color: #012154;
   background: #ffffff;
+}
+
+.hide {
+  display: none;
+  position: absolute;
+  left: -999em;
+}
+
+.lightanddark {
+  width: 50%;
+  margin: 3% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lightanddark .buttonsselecter {
+  background: rgba(255, 255, 255, 0.027);
+  color: #19d3da;
+  border: none;
+  padding: 2% 5%;
+  outline: none;
+  border-radius: 5px;
+  margin: 0 2%;
+}
+
+.lightanddark .buttonsselecter:hover {
+  background: white;
+  color: #012154;
+}
+
+.lightanddark .activebuttonsselecter {
+  background: white;
+  color: #012154;
 }
 /*# sourceMappingURL=style.css.map */

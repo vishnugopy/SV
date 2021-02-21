@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 760px) {
   body {
     font-size: 110%;
   }
@@ -15,7 +15,7 @@
   main {
     width: 100%;
     margin: 0 auto;
-    padding: 10% 0%;
+    padding: 3% 0%;
   }
   .Contentshower {
     margin: 0 auto;
@@ -30,7 +30,7 @@
         flex-wrap: wrap;
     padding: 1%;
   }
-  .wallpaper {
+  .Mainbox {
     width: 60%;
     margin: 4% 10%;
   }
@@ -52,29 +52,33 @@
   footer {
     display: none;
   }
+  .lightanddark {
+    width: 100%;
+  }
   .about_us h4 {
     margin: 15% 0% 3% 0%;
   }
 }
 
-@media only screen and (min-device-width: 700px) and (max-device-width: 1200px) {
-  body {
-    font-size: 120%;
+@media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
+  .Mainbox {
+    width: 30%;
+    margin: 4% 8%;
   }
-  main {
-    width: 100%;
-    margin: 0 auto;
-    padding: 10% 0%;
+  .Nametag .logo_container {
+    width: 90%;
+    margin: 10% auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .wallpaper {
-    width: 25%;
-    margin: 4% 10%;
+  .Nametag .logo_container .main_logo {
+    width: 50px;
+    margin: 2% 0;
   }
-  footer {
-    display: none;
-  }
-  .about_us h4 {
-    margin: 10% 0% 1% 0%;
+  .Nametag .logo_container div {
+    margin: 0 2%;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

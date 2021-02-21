@@ -10,6 +10,7 @@ $iconscolor: #19d3da;
     margin: 0 auto;
     padding: 0;
     box-sizing: content-box;
+    font-family: 'Mulish', sans-serif;
 }
 
 
@@ -104,11 +105,16 @@ main {
     }
 }
 
+
+.Mainbox{
+    width: 23%;
+    margin: 1% 5%;
+}
+
 .wallpaper {
-    width: 22%;
     position: relative;
     display: flex;
-    margin: 1% 5%;
+   
 
 
     img {
@@ -200,5 +206,40 @@ footer {
     a:hover {
         color: $theme;
         background: $white;
+    }
+}
+
+
+.hide{
+    display: none;
+    position: absolute; 
+    left: -999em;
+}
+
+.lightanddark{
+    width: 50%;
+    margin: 3% auto;
+    display: flex;
+    align-items: center;
+
+
+    .buttonsselecter{
+        background: rgba(255, 255, 255, 0.027);
+        color: $lightblue;
+        border: none;
+        padding: 2% 5%;
+        outline: none;
+        border-radius: 5px;
+        margin: 0 2%;
+    }
+
+    .buttonsselecter:hover{
+        background: rgb(255, 255, 255);
+        color: $theme;
+    }
+
+    .activebuttonsselecter{
+        background: rgb(255, 255, 255);
+        color: $theme;
     }
 }
