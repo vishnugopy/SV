@@ -29,3 +29,10 @@ header.innerHTML =
  } else if (window.location.href.indexOf("About") > -1){
     aboutbutton.classList.add("activebutton");
  }
+
+ //loading screen
+ let loading = document.querySelector(".loadingscreen");
+
+ setInterval(() => {
+   loading.style.display = "none";
+ }, 2000);
