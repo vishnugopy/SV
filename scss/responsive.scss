@@ -22,13 +22,15 @@
     .Contentshower{
         margin: 0 auto;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; 
         padding: 1%;
     }
 
     .Mainbox{
         width: 60%;
+        height: 100%;
         margin: 4% 10%;
     }
     
