@@ -70,6 +70,17 @@
     width: 30%;
     margin: 4% 8%;
   }
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .Nametag .logo_container {
     width: 90%;
     margin: 10% auto;

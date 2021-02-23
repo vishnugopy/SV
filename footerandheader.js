@@ -30,9 +30,5 @@ header.innerHTML =
     aboutbutton.classList.add("activebutton");
  }
 
- //loading screen
- let loading = document.querySelector(".loadingscreen");
 
- setInterval(() => {
-   loading.style.display = "none";
- }, 2000);
+

@@ -17,7 +17,7 @@ imagearr.forEach(element => {
     <figure class="wallpaper" id="${element.match(/\d+/)}">
     <img src="./${element}" alt="${element}">
     <figcaption>
-        <h4>${"Wallpaper_" + element.match(/\d+/) }</h4>
+        <h4>${"#Wallpaper_" + element.match(/\d+/) }</h4>
         <a class="buttondownload" href="${element}" download><i class="fas fa-download"></i></a>
     </figcaption>
     </figure>
@@ -80,7 +80,7 @@ light.addEventListener("click", () => {
     });
 })
 
-
+all.classList.add("activebuttonsselecter")
 all.addEventListener("click", () => {
 
     figure.forEach(element => {
@@ -92,6 +92,13 @@ all.addEventListener("click", () => {
     });
 })
 
+
+//loading screen
+ let loading = document.querySelector(".loadingscreen");
+
+ setInterval(() => {
+   loading.style.display = "none";
+ }, 2000);
 
 
 

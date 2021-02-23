@@ -78,6 +78,13 @@
         margin: 4% 8%;
     }
 
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
     .Nametag .logo_container{
         width: 90%;
         margin:10% auto;
