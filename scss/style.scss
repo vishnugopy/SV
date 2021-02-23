@@ -24,6 +24,8 @@ body {
     background: $black;
     font-family: 'Mulish', sans-serif;
     color: $white;
+    transition: all 5S ease-in-out 1;
+
 }
 
 header {
@@ -49,7 +51,7 @@ header {
             text-align: center;
             padding: 1% 0.5%;
             border-radius: 5px;
-            background-color: #01215434;
+            background-color: #01215431;
             font-weight: 700;
         }
 
@@ -59,6 +61,7 @@ header {
         }
 
         a:hover {
+            transition: all 2S ease-in-out 1;
             color: $theme;
             background: $white;
             border-radius: 5px;
@@ -68,7 +71,7 @@ header {
 
 .activebutton {
     color: $white;
-    background: #0121548c;
+    background: #01215496;
     border-radius: 5px;
 }
 
@@ -234,6 +237,7 @@ footer {
 
 
 .hide{
+   
     display: none;
     position: absolute; 
     left: -999em;

@@ -52,8 +52,10 @@ dark.addEventListener("click", () => {
     figure.forEach(element => {
         elementid = element.id % 2;
         element.className="wallpaper";
+        element.parentElement.className="Mainbox";
         if (elementid == 0) {
             element.classList.toggle("hide");
+            element.parentElement.classList.toggle("hide");
             dark.classList.add("activebuttonsselecter")
             light.classList.remove("activebuttonsselecter")
             all.classList.remove("activebuttonsselecter")
@@ -66,8 +68,10 @@ light.addEventListener("click", () => {
     figure.forEach(element => {
         elementid = element.id % 2;
         element.className="wallpaper";
+        element.parentElement.className="Mainbox";
         if (elementid == 1) {
             element.classList.toggle("hide");
+            element.parentElement.classList.toggle("hide");
             light.classList.add("activebuttonsselecter")
             dark.classList.remove("activebuttonsselecter")
             all.classList.remove("activebuttonsselecter")
@@ -81,6 +85,7 @@ all.addEventListener("click", () => {
 
     figure.forEach(element => {
        element.classList.remove("hide");
+       element.parentElement.classList.remove("hide");
        all.classList.add("activebuttonsselecter")
        dark.classList.remove("activebuttonsselecter")
        light.classList.remove("activebuttonsselecter")
