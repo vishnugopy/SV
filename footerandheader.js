@@ -24,7 +24,7 @@ header.innerHTML =
 
  let homebutton = document.querySelector("nav a:nth-child(1)")
  let aboutbutton = document.querySelector("nav a:nth-child(2)")
- if (window.location.href.indexOf("index") > -1 || window.location.href == "https://stupidversion.com/") {
+ if (window.location.href.indexOf("index") > -1 || window.location.href.indexOf("")) {
     homebutton.classList.add("activebutton");
  } else if (window.location.href.indexOf("About") > -1){
     aboutbutton.classList.add("activebutton");
