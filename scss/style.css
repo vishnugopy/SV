@@ -161,10 +161,17 @@ main .Contentshower {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .wallpaper img {
-  width: 100%;
+  width: 100% !important;
+  height: 100% !important;
   border: 0.1px solid #ffffff48;
   border-radius: 5px solid;
 }

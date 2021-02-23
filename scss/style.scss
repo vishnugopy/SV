@@ -136,11 +136,12 @@ main {
 .wallpaper {
     position: relative;
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
    
-
-
     img {
-        width: 100%;
+        width: 100% !important;
+        height: 100% !important;
         border: 0.1px solid #ffffff48;
         border-radius: 5px solid;
     }
