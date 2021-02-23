@@ -15,7 +15,7 @@ imagearr.forEach(element => {
     div.innerHTML =
         `
     <figure class="wallpaper" id="${element.match(/\d+/)}">
-    <img src="./${element}" alt="${element}">
+    <img src="./${element}" alt="${element}" loading="lazy" >
     <figcaption>
         <h4>${"#Wallpaper_" + element.match(/\d+/) }</h4>
         <a class="buttondownload" href="${element}" download><i class="fas fa-download"></i></a>
