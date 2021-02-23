@@ -38,7 +38,7 @@ light.addEventListener("click", () => {
 
     figure.forEach(element => {
         elementid = element.id % 2;
-        console.log(elementid);
+        // console.log(elementid);
         element.className="wallpaper";
         if (elementid == 1) {
             element.classList.toggle("hide");
