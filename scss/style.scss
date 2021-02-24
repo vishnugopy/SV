@@ -270,11 +270,13 @@ footer {
         outline: none;
         border-radius: 5px;
         margin: 0% 2%;
+        
     }
 
     .buttonsselecter:hover{
         background: rgb(255, 255, 255);
         color: $theme;
+        cursor: pointer;
     }
 
     .activebuttonsselecter{

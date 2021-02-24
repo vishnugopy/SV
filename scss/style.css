@@ -320,6 +320,7 @@ footer div a:hover {
 .lightanddark .buttonsselecter:hover {
   background: white;
   color: #012154;
+  cursor: pointer;
 }
 
 .lightanddark .activebuttonsselecter {
