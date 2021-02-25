@@ -1,10 +1,10 @@
 let Contentshower = document.querySelector(".Contentshower");
-
+let count = 21 ;
 
 //content shower
 let number;
 let imagearr = [];
-for (let i = 1; i < 19; i++) {
+for (let i = 1; i < count; i++) {
     imagearr.push("Wallpapers/" + i + ".png")
     number = i;
 }
