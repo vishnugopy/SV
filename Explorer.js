@@ -73,7 +73,6 @@ let Assets = document.querySelector(".assets");
 let allsource = document.querySelectorAll(".assetcsofcontents");
 
 all.addEventListener("click" , () => {
-    all.classList.add("activebuttonsselecter")
     allsource.forEach(element => {
         if (element.classList.contains("assetcsofcontents")) {
             element.style.display ="block";
@@ -82,7 +81,6 @@ all.addEventListener("click" , () => {
 })
 
 fonts.addEventListener("click" , () => {
-    fonts.classList.add("activebuttonsselecter")
     allsource.forEach(element => {
         if (element.classList.contains("Assets")) {
             element.style.display ="none";
