@@ -7,7 +7,6 @@ let contents = [
         "img" : "wallpaper2",
         "file": "wallpaer",
         "description": "loremmfdokhfkjdkjf",
-        "author": "HTRHGF"
     },
     {
         "id": "1",
@@ -16,7 +15,6 @@ let contents = [
         "img" : "wallpaper2",
         "file": "wallpaer",
         "description": "loremmfdokhfkjdkjf",
-        "author": "HTRHGF"
     },
 
 

@@ -63,6 +63,21 @@
   .about_us h4 {
     margin: 15% 0% 3% 0%;
   }
+  .explorersection {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .assetcs {
+    padding: 3%;
+    margin: 5% auto;
+    width: 90%;
+  }
 }
 
 @media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
@@ -95,6 +110,21 @@
   }
   .Nametag .logo_container div {
     margin: 0 2%;
+  }
+  .explorersection {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .assetcs {
+    padding: 3%;
+    margin: 5% auto;
+    width: 90%;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

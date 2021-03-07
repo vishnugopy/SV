@@ -12,7 +12,7 @@ $iconscolor: #19d3da;
     border-radius: 100%;
     opacity: 0.2;
     z-index: -10;
-  }
+}
 
 * {
     margin: 0 auto;
@@ -41,6 +41,7 @@ header {
     height: auto;
     padding: 1.5% 2%;
     z-index: 2;
+
     nav {
         display: flex;
         align-items: center;
@@ -92,13 +93,13 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        align-items: flex-start; 
+        align-items: flex-start;
         flex-wrap: wrap;
     }
 }
 
 
-.loadingscreen{
+.loadingscreen {
     background: $black;
     position: fixed;
     z-index: 3;
@@ -109,12 +110,12 @@ main {
     justify-content: center;
     align-items: center;
 
-    img{
+    img {
         width: 100px;
         margin: 0% auto;
     }
 
-    p{
+    p {
         margin: 1% auto;
     }
 }
@@ -138,7 +139,7 @@ main {
 }
 
 
-.Mainbox{
+.Mainbox {
     width: 23%;
     height: 100%;
     margin: 1% 10% 0% 0%;
@@ -148,8 +149,8 @@ main {
     position: relative;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start; 
-   
+    align-items: flex-start;
+
     img {
         width: 100% !important;
         height: 100% !important;
@@ -230,7 +231,7 @@ footer {
     padding: 3% 0;
     margin: 3% 0 5% 0;
     border-radius: 5px;
-    background:#195dda10;
+    background: #195dda10;
 
     a {
         text-decoration: none;
@@ -248,21 +249,21 @@ footer {
 }
 
 
-.hide{
-   
+.hide {
+
     display: none;
-    position: absolute; 
+    position: absolute;
     left: -999em;
 }
 
-.lightanddark{
+.lightanddark {
     width: 50%;
     margin: 3% auto;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    .buttonsselecter{
+    .buttonsselecter {
         background: rgba(255, 255, 255, 0.027);
         color: $lightblue;
         border: none;
@@ -270,17 +271,79 @@ footer {
         outline: none;
         border-radius: 5px;
         margin: 0% 2%;
-        
+
     }
 
-    .buttonsselecter:hover{
+    .buttonsselecter:hover {
         background: rgb(255, 255, 255);
         color: $theme;
         cursor: pointer;
     }
 
-    .activebuttonsselecter{
+    .activebuttonsselecter {
         background: rgb(255, 255, 255);
         color: $theme;
+    }
+}
+
+//exporerpage css only
+.explorersection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.assetcs {
+    width: 28%;
+    margin: 2%;
+    background: rgba(255, 255, 255, 0.027);
+    padding: 1%;
+    border-radius: 10px;
+    text-align: left;
+
+    img {
+        display: block;
+        margin: 3% auto;
+        border-radius: 10px;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    h2{
+        margin:2% 0%;
+        color: $lightblue;
+    }
+
+    p{
+        margin:2% 0%; 
+    }
+    a{
+        display: block;
+    }
+    .tags{
+        width: fit-content;
+        display: block;
+        background: rgba(255, 255, 255, 0.027);
+        color: $lightblue;
+        border: none;
+        padding: 2% 5%;
+        outline: none;
+        border-radius: 5px;
+        margin:5% 0%;
+        font-style: italic;
+    }
+    
+    .buttonassects{
+        width:20%;
+        height: auto;
+        margin: 1% 0% 1% auto;
+        background-color: #195dda23;
+        border: 2px solid #ffffff48;
+        text-decoration: none;
+        color: $white;
+        text-align: center;
+        padding: 3% 10%;
+        border-radius: 5px;
     }
 }
