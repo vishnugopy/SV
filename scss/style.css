@@ -1,17 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.ball {
-  position: absolute;
-  border-radius: 100%;
-  opacity: 0.2;
-  z-index: -10;
-}
-
 * {
   margin: 0 auto;
   padding: 0;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   font-family: 'Mulish', sans-serif;
+}
+
+button {
+  font-size: 80%;
 }
 
 html {
@@ -308,13 +305,14 @@ footer div a:hover {
 }
 
 .lightanddark .buttonsselecter {
+  border: 1px solid #19d4da2c;
   background: rgba(255, 255, 255, 0.027);
-  color: #19d3da;
-  border: none;
-  padding: 2% 5%;
+  color: #ffffff;
+  padding: 2% 3%;
   outline: none;
   border-radius: 5px;
   margin: 0% 2%;
+  font-weight: 700;
 }
 
 .lightanddark .buttonsselecter:hover {
@@ -337,18 +335,20 @@ footer div a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.assetcs {
-  width: 28%;
-  margin: 2%;
+.assetcsofcontents {
+  width: 20%;
+  margin: 1%;
   background: rgba(255, 255, 255, 0.027);
   padding: 1%;
   border-radius: 10px;
   text-align: left;
 }
 
-.assetcs img {
+.assetcsofcontents img {
   display: block;
   margin: 3% auto;
   border-radius: 10px;
@@ -358,35 +358,43 @@ footer div a:hover {
      object-fit: cover;
 }
 
-.assetcs h2 {
+.assetcsofcontents h2 {
   margin: 2% 0%;
   color: #19d3da;
 }
 
-.assetcs p {
+.assetcsofcontents p {
   margin: 2% 0%;
 }
 
-.assetcs a {
+.assetcsofcontents a {
   display: block;
 }
 
-.assetcs .tags {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.assetcsofcontents .butandtag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.assetcsofcontents .tags {
+  width: auto;
+  height: auto;
   display: block;
   background: rgba(255, 255, 255, 0.027);
   color: #19d3da;
   border: none;
-  padding: 2% 5%;
+  padding: 3% 3%;
   outline: none;
   border-radius: 5px;
-  margin: 5% 0%;
+  margin: 5% 2%;
   font-style: italic;
 }
 
-.assetcs .buttonassects {
+.assetcsofcontents .buttonassects {
   width: 20%;
   height: auto;
   margin: 1% 0% 1% auto;
@@ -397,5 +405,37 @@ footer div a:hover {
   text-align: center;
   padding: 3% 10%;
   border-radius: 5px;
+}
+
+.alltypes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3% auto;
+}
+
+.alltypes button {
+  border: 1px solid #19d4da2c;
+  background: rgba(255, 255, 255, 0.027);
+  color: #ffffff;
+  padding: 1% 3%;
+  outline: none;
+  border-radius: 5px;
+  margin: 0% 2%;
+  font-weight: 700;
+}
+
+.alltypes button:hover {
+  background: white;
+  color: #012154;
+  cursor: pointer;
+}
+
+.activation {
+  background: white;
+  color: #012154;
 }
 /*# sourceMappingURL=style.css.map */

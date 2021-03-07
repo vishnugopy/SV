@@ -6,16 +6,21 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 6vh;
     padding: 3% 1%;
     z-index: 2;
   }
   header a span {
     display: none;
   }
+  .alltypes button {
+    font-size: 100%;
+    padding: 3% 6%;
+  }
   main {
     width: 98%;
     margin: 0 auto;
-    padding: 3% 0% 15% 0%;
+    padding: 3% 0% 30% 0%;
   }
   .Contentshower {
     margin: 0 auto;
@@ -73,7 +78,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .assetcs {
+  .assetcsofcontents {
     padding: 3%;
     margin: 5% auto;
     width: 90%;
@@ -121,7 +126,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .assetcs {
+  .assetcsofcontents {
     padding: 3%;
     margin: 5% auto;
     width: 90%;
