@@ -16,9 +16,9 @@ let footer = document.querySelector("footer");
 footer.innerHTML =
    `
  <div>
-    <a href="mailto:stupidversion@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
-    <a href="https://www.instagram.com/stupid_version_studio/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://play.google.com/store/apps/dev?id=7891379765966516089" target="_blank"><i class="fab fa-google-play"></i></a>
+    <a href="mailto:stupidversion@gmail.com" target="_blank" rel="noopener"><i class="fab fa-google"></i></a>
+    <a href="https://www.instagram.com/stupid_version_studio/?hl=fr" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+    <a href="https://play.google.com/store/apps/dev?id=7891379765966516089" target="_blank" rel="noopener"><i class="fab fa-google-play"></i></a>
 </div>
    <p>&copy;Stupid_Version_studio_2020</p>
  `
